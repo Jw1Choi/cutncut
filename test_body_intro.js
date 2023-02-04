@@ -165,8 +165,8 @@ testbody.innerHTML =`
 					
 							
 						  
-							  <center><input name="entry.intro" id="quest00_1" class="input_font quest00" type="radio" value="시작하기" style="text-align:center;" >
-							  <label class="label_button1 intro_click" id="start0" for="quest00_1" onclick="go_sub()"><span style="font-size: 16px;"></span><span >시작하기</span></label>
+							  <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="시작하기" style="text-align:center;" >
+							  <label class="label_button1" id="start0" for="quest00_1" onclick="go_sub()"><span style="font-size: 16px;"></span><span >시작하기</span></label>
 							  
 							  <br>
 							  <input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
@@ -234,7 +234,7 @@ testbody.innerHTML =`
 						  <!--질문0번 SECTION-->	
 						  <section  id="quest0_wrap" class="wow fadeIn backg container1" >
 						  
-							  <img src="./mirror.jpg" class="bg-img br50">
+							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
 							  <div class="wow fadeIn img-text ft-white">	
 						  <!--질문 문구 부분 시작-->
@@ -244,24 +244,27 @@ testbody.innerHTML =`
 						  <input name="entry.1989036305" class="test_input bb-white"  type="number"  id="weight" style="width:40%;text-align:center;" maxlength="3" oninput="maxLengthCheck(this)" onkeyup="goal_weight()"><label class="ft-white" >kg</label><br><br>
 						  <!--질문 문구 부분 끝-->
 						  <span class="alert" id="alert_gw">　</span>
-						  <center><input name="entry.quest0" id="quest0_1" class="input_font quest0 " type="radio" value="다음" style="text-align:center;" disabled="disabled">
+
+						  <!-- chat -->
+						  <center><br><div class=" alert_msg">
+						   <div class="col-2  pad0" style="float:left;margin-right:30px">
+						   <center><img class="chat_img mw74" src="./guide.png" ></center>
+						   </div>
+				  
+						   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+						   
+						   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+						   </div>
+				  
+							   </div> </center><br>
+				  
+					   <!-- end chat -->
+						  
+						  <center><input name="entry.quest0" id="quest0_1" class="input_font quest0 click_goal_weight" type="radio" value="다음" style="text-align:center;" disabled="disabled">
 							  <label class="label_button1 disabled" id="next_gw" for="quest0_1" style="text-align:Center;" onclick="go_weight()">다음</label></center>	
 							  </div>
 		
-							  <!-- chat -->
-							  <center> <div class=" alert_msg">
-							   <div class="col-2  pad0" style="float:left;margin-right:30px">
-							   <center><img class="chat_img mw74" src="./guide.png" ></center>
-							   </div>
-		  
-							   <div class="col-12 col50 text-center pad-msg" >
-							   
-							   <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
-							   </div>
-		  
-								   </div> </center><br>
-		  
-						   <!-- end chat -->
+				
 								 
 						  </section>
 						  <!--질문0번 SECTION 끝 -->	   
@@ -272,7 +275,7 @@ testbody.innerHTML =`
 						 
 								 <section  id="quest1_wrap" class="wow fadeIn backg container1" >
 		
-								  <img src="./mirror.jpg" class="bg-img br50">
+								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
 								  <div class="wow fadeIn img-text ft-white">
 									 <!-- <div class="menu1" style="text-align:left">
@@ -283,21 +286,26 @@ testbody.innerHTML =`
 							  <center><input id="mf_1" name="entry.1818522882" type="radio" value="여성" /> <label class="label_button1" for="mf_1" onclick="jump_quest(5)" >여성</label></center>
 							  <center><input id="mf_2" name="entry.1818522882" type="radio" value="남성" /> <label class="label_button1" for="mf_2" onclick="ban()">남성</label></center>
 							  <center><p id="dzi1_ord" class="ft-white alert">　</p></center><br />
+
+
+							  <!-- chat -->
+							  <center><div class=" alert_msg">
+							   <div class="col-2  pad0" style="float:left;margin-right:30px">
+							   <center><img class="chat_img mw74" src="./guide.png" ></center>
+							   </div>
+		  
+							   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+							   
+							   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+							   </div>
+		  
+								   </div> </center><br>
+		  
+						   <!-- end chat -->
+
+
 						  </div>
-						  <!-- chat -->
-						  <center> <div class=" alert_msg">
-						   <div class="col-2  pad0" style="float:left;margin-right:30px">
-						   <center><img class="chat_img mw74" src="./guide.png" ></center>
-						   </div>
-	  
-						   <div class="col-12 col50 text-center pad-msg" >
-						   
-						   <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
-						   </div>
-	  
-							   </div> </center><br>
-	  
-					   <!-- end chat -->
+					
 						 
 							  </section>
 								 
@@ -306,7 +314,7 @@ testbody.innerHTML =`
 								  
 								  <!--'이전으로' 버튼 부분-->
 							  
-								  <img src="./mirror.jpg" class="bg-img br50">
+								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 								 
 							  <div class="wow fadeIn img-text ft-white">	
 		
@@ -317,24 +325,28 @@ testbody.innerHTML =`
 						  <input name="entry.880528237" class="test_input bb-white"  type="number"  id="now-weight" style="width:40%;text-align:center;" maxlength="3" oninput="maxLengthCheck(this)"  onkeyup="now_weight()"><label class="ft-white" >kg</label><br><br>
 		<!--질문 문구 부분 끝-->
 		<span class="alert" id="alert_nw">　</span>
-		<center><input name="entry.quest2" id="quest2_1" class="input_font quest2 " type="radio" value="다음" style="text-align:center;" disabled="disabled">
-		<label class="label_button1 disabled" id="next_nw" for="quest2_1" style="text-align:Center;" onclick="go_height()">다음</label></center>	
-		</div>								   
-						 
+
+
 		<!-- chat -->
-		<center> <div class=" alert_msg">
+		<center><br><div class=" alert_msg">
 		 <div class="col-2  pad0" style="float:left;margin-right:30px">
 		 <center><img class="chat_img mw74" src="./guide.png" ></center>
 		 </div>
 
-		 <div class="col-12 col50 text-center pad-msg" >
+		 <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
 		 
-		 <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+		 <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 		 </div>
 
 			 </div> </center><br>
 
 	 <!-- end chat -->
+
+		<center><input name="entry.quest2" id="quest2_1" class="input_font quest2 click_weight" type="radio" value="다음" style="text-align:center;" disabled="disabled">
+		<label class="label_button1 disabled" id="next_nw" for="quest2_1" style="text-align:Center;" onclick="go_height()">다음</label></center>	
+		</div>								   
+						 
+	
 
 							  </section>	
 							  <!--질문2 SECTION 끝-->
@@ -349,7 +361,7 @@ testbody.innerHTML =`
 										 <div class="stepper-item"></div>
 								 <div class="stepper-item"></div>
 											 </div></center><br> -->
-											 <img src="./mirror.jpg" class="bg-img br50">
+											 <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 											 
 											 <div class="wow fadeIn img-text ft-white">	
 											 <!--질문 문구 부분 시작-->
@@ -359,17 +371,15 @@ testbody.innerHTML =`
 											 <input name="entry.205668662" class="test_input bb-white"  type="number"  id="now-height" style="width:40%;text-align:center;" maxlength="3" oninput="maxLengthCheck(this)"  onkeyup="now_height()"><label class="ft-white" >cm</label><br><br>
 											 <!--질문 문구 부분 끝-->
 											 <span class="alert" id="alert_height">　</span>
-											 <center><input name="entry.quest3" id="quest3_1" class="input_font quest3 " type="radio" value="다음" style="text-align:center;" disabled="disabled">
-											 <label class="label_button1 disabled" id="next_height" for="quest3_1" style="text-align:Center;" onclick="go_age()">다음</label></center>	
-											 </div>
-										  
+
+
 											 <!-- chat -->
-											 <center> <div class=" alert_msg">
+											 <center><br><div class=" alert_msg">
 											  <div class="col-2  pad0" style="float:left;margin-right:30px">
 											  <center><img class="chat_img mw74" src="./guide.png" ></center>
 											  </div>
 						 
-											  <div class="col-12 col50 text-center pad-msg" >
+											  <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
 											  
 											  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 											  </div>
@@ -377,12 +387,18 @@ testbody.innerHTML =`
 												  </div> </center><br>
 						 
 										  <!-- end chat -->
+
+											 <center><input name="entry.quest3" id="quest3_1" class="input_font quest3 click_height" type="radio" value="다음" style="text-align:center;" disabled="disabled">
+											 <label class="label_button1 disabled" id="next_height" for="quest3_1" style="text-align:Center;" onclick="go_age()">다음</label></center>	
+											 </div>
+										  
+									
 										  
 									  </section>	
 						 
 								 
 						 <section  id="quest4_wrap" class="wow fadeIn backg container1" >	
-						  <img src="./mirror.jpg" class="bg-img br50">
+						  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						 
 						  <div class="wow fadeIn img-text ft-white">	
 							  <center><h1><span class="questm ft-white">나이</span></h1></center>
@@ -392,18 +408,15 @@ testbody.innerHTML =`
 										 <input name="entry.1881318671" class="test_input bb-white"  type="number"  id="now-age" style="width:30%;text-align:center;min-width: 100px;" maxlength="2" oninput="maxLengthCheck(this)"  onkeyup="now_age()"><label class="ft-white" >세</label><br><br>
 										 <!--질문 문구 부분 끝-->
 										 <span class="alert" id="alert_age">　</span>
-										 <center><input name="entry.quest4" id="quest4_1" class="input_font quest4 " type="radio" value="다음" style="text-align:center;" disabled="disabled">
-										 <label class="label_button1 disabled" id="next_age" for="quest4_1" style="text-align:Center;" onclick="go_se()">다음</label></center>	
-										 </div>
-									  
+
 
 										 <!-- chat -->
-										 <center> <div class=" alert_msg">
+										 <center><br><div class=" alert_msg">
 										  <div class="col-2  pad0" style="float:left;margin-right:30px">
 										  <center><img class="chat_img mw74" src="./guide.png" ></center>
 										  </div>
 					 
-										  <div class="col-12 col50 text-center pad-msg" >
+										  <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
 										  
 										  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 										  </div>
@@ -411,12 +424,19 @@ testbody.innerHTML =`
 											  </div> </center><br>
 					 
 									  <!-- end chat -->
+
+										 <center><input name="entry.quest4" id="quest4_1" class="input_font quest4 click_age" type="radio" value="다음" style="text-align:center;" disabled="disabled">
+										 <label class="label_button1 disabled" id="next_age" for="quest4_1" style="text-align:Center;" onclick="go_se()">다음</label></center>	
+										 </div>
+									  
+
+									
 										 
 										</section>
 										
 		
 							  <section  id="quest5_wrap" class="wow fadeIn backg container1" >
-							  <img src="./mirror.jpg" class="bg-img br50">
+							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						  
 						  <div class="wow fadeIn img-text ft-white">	
 							  <center><h1><span class="questm ft-white">성함</span></h1></center>
@@ -427,18 +447,14 @@ testbody.innerHTML =`
 										 <br><br>
 										  <!--질문 문구 부분 끝-->
 										  <span class="alert" id="alert_name">　</span>
-										  <center><input name="entry.quest5" id="quest5_1" class="input_font quest5 " type="radio" value="다음" style="text-align:center;" disabled="disabled" >
-										  <label class="label_button1 disabled" id="next_name" for="quest5_1" style="text-align:Center;" onclick="go_phone()">다음</label></center>	
-										  </div>
-										  
 
 										  <!-- chat -->
-										  <center> <div class=" alert_msg">
+										  <center><br><div class=" alert_msg">
 										   <div class="col-2  pad0" style="float:left;margin-right:30px">
 										   <center><img class="chat_img mw74" src="./guide.png" ></center>
 										   </div>
 					  
-										   <div class="col-12 col50 text-center pad-msg" >
+										   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
 										   
 										   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 										   </div>
@@ -446,13 +462,20 @@ testbody.innerHTML =`
 											   </div> </center><br>
 					  
 									   <!-- end chat -->
+
+										  <center><input name="entry.quest5" id="quest5_1" class="input_font quest5 click_name" type="radio" value="다음" style="text-align:center;" disabled="disabled" >
+										  <label class="label_button1 disabled" id="next_name" for="quest5_1" style="text-align:Center;" onclick="go_phone()">다음</label></center>	
+										  </div>
+										  
+
+								
 										 
 							  </section>
 							  <!-- 다른 번호의 SECTION 끝 -->
 		
 								 
 								  <section  id="quest6_wrap" class="wow fadeIn backg container1" >
-									  <img src="./mirror.jpg" class="bg-img br50">
+									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 									 
 									  <div class="wow fadeIn img-text ft-white">	
 										  <center><h1><span class="questm ft-white">휴대폰 번호</span></h1></center>
@@ -462,17 +485,14 @@ testbody.innerHTML =`
 													 <input name="entry.576088086" class="test_input bb-white"  type="number"  id="phone" style="width:80%;text-align:center;max-width: 300px;" maxlength="11" oninput="maxLengthCheck(this)" onkeyup="now_phone()"><br><br>
 													 <!--질문 문구 부분 끝-->
 													 <span class="alert" id="alert_phone">　</span>
-													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 " type="submit" value="다음" style="text-align:center;display: none;" >
-													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">다음</label></center>	
-													 </div>
 
 													 <!-- chat -->
-													 <center> <div class=" alert_msg">
+													 <center><br><div class=" alert_msg">
 													  <div class="col-2  pad0" style="float:left;margin-right:30px">
 													  <center><img class="chat_img mw74" src="./guide.png" ></center>
 													  </div>
 								 
-													  <div class="col-12 col50 text-center pad-msg" >
+													  <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
 													  
 													  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 													  </div>
@@ -480,6 +500,13 @@ testbody.innerHTML =`
 														  </div> </center><br>
 								 
 												  <!-- end chat -->
+
+
+													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="다음" style="text-align:center;display: none;" >
+													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">다음</label></center>	
+													 </div>
+
+
 												  
 								  </section>	
 								 
@@ -492,11 +519,15 @@ testbody.innerHTML =`
 									  <div class="wow fadeIn img-text ft-white" style="top:4% !important">
 											
 								  <center><h1><span class="questm ft-white">희망 감량 부위</span></h1></center><br>
-								  <center><input id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
-								  <center><input id="hope_2" name="entry.272078534" type="radio" value="옆구리" /> <label class="label_button1" for="hope_2" onclick="jump_quest(0);focus()">옆구리</label></center>
-								  <center><input id="hope_3" name="entry.272078534" type="radio" value="허벅지" /> <label class="label_button1" for="hope_3" onclick="jump_quest(0);focus()">허벅지</label></center>
-								  <center><input id="hope_4" name="entry.272078534" type="radio" value="등" /> <label class="label_button1" for="hope_4" onclick="jump_quest(0);focus()">등</label></center>
-								  <center><input id="hope_5" name="entry.272078534" type="radio" value="종아리" /> <label class="label_button1" for="hope_5" onclick="jump_quest(0);focus()">종아리</label></center>
+								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
+
+								  <center><input class="choice click_side" id="hope_2" name="entry.272078534" type="radio" value="옆구리" /> <label class="label_button1" for="hope_2" onclick="jump_quest(0);focus()">옆구리</label></center>
+								  
+								  <center><input class="choice click_thigh" id="hope_3" name="entry.272078534" type="radio" value="허벅지" /> <label class="label_button1" for="hope_3" onclick="jump_quest(0);focus()">허벅지</label></center>
+								 
+								  <center><input class="choice click_back" id="hope_4" name="entry.272078534" type="radio" value="등" /> <label class="label_button1" for="hope_4" onclick="jump_quest(0);focus()">등</label></center>
+								 
+								  <center><input class="choice click_calf"" id="hope_5" name="entry.272078534" type="radio" value="종아리" /> <label class="label_button1" for="hope_5" onclick="jump_quest(0);focus()">종아리</label></center>
 							
 
 							  <!-- chat -->
@@ -505,7 +536,7 @@ testbody.innerHTML =`
 							   <center><img class="chat_img mw74" src="./guide.png" ></center>
 							   </div>
 		  
-							   <div class="col-12 col50 text-center" >
+							   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
 							   
 							   <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 							   </div>
@@ -535,18 +566,133 @@ testbody.innerHTML =`
 
 						 <section  id="quest100_wrap" class="wow fadeIn backg container1" >
 						  
-						 <img src="./mirror.jpg" class="bg-img br50">
+						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:650px;max-height:750px">
    
 						 <div class="wow fadeIn img-text ft-white">	
 				
 						 <center><h1><span class="questm ft-white">신청이 완료 되었습니다.</span></h1></center>
+
+						 <section id="clients" class="wow fadeInUp"><br><br>
+								<!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
+								  <div class="container">
+			
+							
+										<div class="owl-carousel clients-carousel">
+			
+			
+									<!-- flat slide -->
+									<!--	<div>  
+												
+													
+														<div class="row ">
+															<div class="col-lg-4 col-4 text-center">
+															<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
+															</div>
+												
+															<div class="col-lg-8 col-8 text-center">
+															
+															<p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
+															</div>
 					
-					 
-					  <input name="entry.1989036305" class="test_input bb-white"  type="number"  id="weight" style="width:40%;text-align:center;" maxlength="3" oninput="maxLengthCheck(this)" onkeyup="goal_weight()"><label class="ft-white" >kg</label><br><br>
-					 
-					 <span class="alert" id="alert_gw">　</span>
-					 <center><input name="entry.quest0" id="quest0_1" class="input_font quest0 " type="radio" value="다음" style="text-align:center;" disabled="disabled">
-						 <label class="label_button1 disabled" id="next_gw" for="quest0_1" style="text-align:Center;" onclick="go_weight()">다음</label></center>	
+														</div>
+												</div> -->
+			
+									<!-- end flat slide -->		
+			
+			
+												<!-- <div>  
+												<p class="txt-tip">1) 살이 점점 안빠지고<br>체중이 늘기만 하는 이유?</p>	
+													<center><img class="img_slide" src="img/ft.jpg" alt="" ></center>
+													<p class="txt-tip">체지방을 없애고 근육을 만드는 핵심인<br>성장호르몬이 20대 이후 감소하면서<br>나잇살이 생기고 안빠지는 체질이 됩니다.<br>[출처: 서울대학교 병원]</p>	
+														<div class="row ">
+															<div class="col-lg-4 col-4 text-center">
+															<p class="txt-tip">체지방 분해<br>근육을 만드는<br>성장호르몬의 감소<br></p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<p class="txt-tip"></p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
+															<p class="txt-tip">체지방 </p>
+															</div>
+												
+													
+														</div>
+												</div> -->
+			
+												<!-- <div>  
+												<p class="txt-tip">2) 성장호르몬 분비를 다시 촉진시켜<br>감량에 도움되게 하는 가장 좋은 방법은 수면입니다.</p>	
+													<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center><br>
+														<div class="row ">
+															<div class="col-lg-4 col-4 text-center">
+														
+															<p class="txt-tip">1. 좋은 수면<br>(하루 성장호르몬의 60~70% 분비)</p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+														
+															<p class="txt-tip">2. 규칙적 운동<br>(운동시 분비 촉진)</p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<p class="txt-tip">3. 균형잡힌 식단<br>(혈당 낮을 때 분비)</p>
+															</div>
+												
+													
+														</div>
+												</div> -->
+			
+												<div>  
+												<p class="txt-tip">3) 수면의 장점을 활용해<br>올바른 감량을 진행할 수 있다면?</p>	
+												<center><img class="img_slide" src="./cutncut-intro.png" alt="" ></center><br><br>
+														<p class="txt-tip">SLEEP & DIET 수면 프로그램은<br>이 질문에 대한 긴 고민과 연구 끝에 태어났습니다.</p>	
+												</div>
+			
+												<!-- <div>
+												<p class="txt-tip"></p><br> 	
+													<center><img class="img_slide" src="img/cutncut-intro.png" alt="" ></center><br>
+														<div class="row ">
+															<div class="col-lg-4 col-4 text-center">
+															<span >500</span><span class="txt-tip">mg</span>
+															<p class="txt-tip">감태추출물<br>(수면 개선에 도움 줄 수 있음)</p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<span>500</span><span class="txt-tip">mg</span>
+															<p class="txt-tip">콜레우스포스콜리추출물<br>(체지방 감소 도움 줄 수 있음)</p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
+															<p class="txt-tip">식약처 기능성 인증</p>
+															</div>
+												
+													
+														</div>
+												</div> -->
+										</div>
+										<hr style="background-color:#fff;width:90%;margin-bottom:30px">
+								  </div>
+				
+								</section>
+
+								<!-- chat -->
+								<center> <div class=" alert_msg">
+								 <div class="col-2  pad0" style="float:left;margin-right:30px">
+								 <center><img class="chat_img " src="./guide.png" ></center>
+								 </div>
+			
+								 <div class="col-12 col50 text-center pad-msg" >
+								 
+								 <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+								 </div>
+			
+									 </div> </center><br>
+			
+							 <!-- end chat -->
+					
 						 </div>
    
 				 
