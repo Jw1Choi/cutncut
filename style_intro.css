@@ -646,7 +646,7 @@ margin-left:5%;
 .tip-text{
  
   font-size:13px !important;
-  line-height:1.3;
+  /* line-height:1.3; */
 }
 
 .input_font{
@@ -2329,6 +2329,11 @@ font-family: 'RIDIBATANG';
   padding: 0 20px; }
 
 
+.chat-gap{
+  padding-top: 7px;
+  line-height: 1.9;
+}
+
 @media screen and (min-width: 1268px) {
 	.bbackg{
 	/* margin-left: 25%;
@@ -2361,8 +2366,8 @@ font-family: 'RIDIBATANG';
 	
 
   .img-text{
-    top: 10% ;
-    font-size:24px;
+    /* top: 10% ; */
+    font-size:13px;
   }
 
   .agree{
@@ -2382,6 +2387,11 @@ font-family: 'RIDIBATANG';
 	
 		.menu1{
 	padding-left:10%;
+}
+
+.chat-gap{
+  padding-top:10px;
+  line-height:1.6 !important;
 }
 
 }
