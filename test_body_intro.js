@@ -251,7 +251,7 @@ testbody.innerHTML =`
 						   <center><img class="chat_img mw74" src="./guide.png" ></center>
 						   </div>
 				  
-						   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+						   <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 						   
 						   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 						   </div>
@@ -294,7 +294,7 @@ testbody.innerHTML =`
 							   <center><img class="chat_img mw74" src="./guide.png" ></center>
 							   </div>
 		  
-							   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+							   <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 							   
 							   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 							   </div>
@@ -333,7 +333,7 @@ testbody.innerHTML =`
 		 <center><img class="chat_img mw74" src="./guide.png" ></center>
 		 </div>
 
-		 <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+		 <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 		 
 		 <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 		 </div>
@@ -379,7 +379,7 @@ testbody.innerHTML =`
 											  <center><img class="chat_img mw74" src="./guide.png" ></center>
 											  </div>
 						 
-											  <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+											  <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 											  
 											  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 											  </div>
@@ -416,7 +416,7 @@ testbody.innerHTML =`
 										  <center><img class="chat_img mw74" src="./guide.png" ></center>
 										  </div>
 					 
-										  <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+										  <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 										  
 										  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 										  </div>
@@ -454,7 +454,7 @@ testbody.innerHTML =`
 										   <center><img class="chat_img mw74" src="./guide.png" ></center>
 										   </div>
 					  
-										   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+										   <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 										   
 										   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 										   </div>
@@ -492,7 +492,7 @@ testbody.innerHTML =`
 													  <center><img class="chat_img mw74" src="./guide.png" ></center>
 													  </div>
 								 
-													  <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+													  <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 													  
 													  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 													  </div>
@@ -536,7 +536,7 @@ testbody.innerHTML =`
 							   <center><img class="chat_img mw74" src="./guide.png" ></center>
 							   </div>
 		  
-							   <div class="col-12 text-center" style="padding-top:11px;line-height:1.6 !important">
+							   <div class="col-12 text-center" style="padding-top:5px;line-height:1.1 !important">
 							   
 							   <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 							   </div>
