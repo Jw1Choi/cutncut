@@ -260,8 +260,8 @@ testbody.innerHTML =`
 				  
 					   <!-- end chat -->
 						  
-						  <center><input name="entry.quest0" id="quest0_1" class="input_font quest0" type="radio" value="다음" style="text-align:center;" disabled="disabled">
-							  <label class="label_button1 disabled click_goal_weight" id="next_gw" for="quest0_1" style="text-align:Center;" onclick="go_weight()">다음</label></center>	
+						  <center><input name="entry.quest0" id="quest0_1" class="input_font quest0 click_goal_weight" type="radio" value="다음" style="text-align:center;" disabled="disabled">
+							  <label class="label_button1 disabled" id="next_gw" for="quest0_1" style="text-align:Center;" onclick="go_weight()">다음</label></center>	
 							  </div>
 		
 				
@@ -342,8 +342,8 @@ testbody.innerHTML =`
 
 	 <!-- end chat -->
 
-		<center><input name="entry.quest2" id="quest2_1" class="input_font quest2" type="radio" value="다음" style="text-align:center;" disabled="disabled">
-		<label class="label_button1 disabled click_weight" id="next_nw" for="quest2_1" style="text-align:Center;" onclick="go_height()">다음</label></center>	
+		<center><input name="entry.quest2" id="quest2_1" class="input_font quest2 click_weight" type="radio" value="다음" style="text-align:center;" disabled="disabled">
+		<label class="label_button1 disabled" id="next_nw" for="quest2_1" style="text-align:Center;" onclick="go_height()">다음</label></center>	
 		</div>								   
 						 
 	
@@ -388,8 +388,8 @@ testbody.innerHTML =`
 						 
 										  <!-- end chat -->
 
-											 <center><input name="entry.quest3" id="quest3_1" class="input_font quest3" type="radio" value="다음" style="text-align:center;" disabled="disabled">
-											 <label class="label_button1 disabled click_height" id="next_height" for="quest3_1" style="text-align:Center;" onclick="go_age()">다음</label></center>	
+											 <center><input name="entry.quest3" id="quest3_1" class="input_font quest3 click_height" type="radio" value="다음" style="text-align:center;" disabled="disabled">
+											 <label class="label_button1 disabled" id="next_height" for="quest3_1" style="text-align:Center;" onclick="go_age()">다음</label></center>	
 											 </div>
 										  
 									
@@ -425,8 +425,8 @@ testbody.innerHTML =`
 					 
 									  <!-- end chat -->
 
-										 <center><input name="entry.quest4" id="quest4_1" class="input_font quest4" type="radio" value="다음" style="text-align:center;" disabled="disabled">
-										 <label class="label_button1 disabled click_age" id="next_age" for="quest4_1" style="text-align:Center;" onclick="go_se()">다음</label></center>	
+										 <center><input name="entry.quest4" id="quest4_1" class="input_font quest4 click_age" type="radio" value="다음" style="text-align:center;" disabled="disabled">
+										 <label class="label_button1 disabled" id="next_age" for="quest4_1" style="text-align:Center;" onclick="go_se()">다음</label></center>	
 										 </div>
 									  
 
@@ -463,8 +463,8 @@ testbody.innerHTML =`
 					  
 									   <!-- end chat -->
 
-										  <center><input name="entry.quest5" id="quest5_1" class="input_font quest5" type="radio" value="다음" style="text-align:center;" disabled="disabled" >
-										  <label class="label_button1 disabled click_name" id="next_name" for="quest5_1" style="text-align:Center;" onclick="go_phone()">다음</label></center>	
+										  <center><input name="entry.quest5" id="quest5_1" class="input_font quest5 click_name" type="radio" value="다음" style="text-align:center;" disabled="disabled" >
+										  <label class="label_button1 disabled" id="next_name" for="quest5_1" style="text-align:Center;" onclick="go_phone()">다음</label></center>	
 										  </div>
 										  
 
@@ -502,8 +502,8 @@ testbody.innerHTML =`
 												  <!-- end chat -->
 
 
-													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 " type="submit" value="다음" style="text-align:center;display: none;" >
-													 <label class="label_button1 disabled click_submit" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">다음</label></center>	
+													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="다음" style="text-align:center;display: none;" >
+													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">다음</label></center>	
 													 </div>
 
 
@@ -519,15 +519,15 @@ testbody.innerHTML =`
 									  <div class="wow fadeIn img-text ft-white" style="top:4% !important">
 											
 								  <center><h1><span class="questm ft-white">희망 감량 부위</span></h1></center><br>
-								  <center><input id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1 choice click_belly" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
+								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
 
-								  <center><input id="hope_2" name="entry.272078534" type="radio" value="옆구리" /> <label class="label_button1 choice click_side" for="hope_2" onclick="jump_quest(0);focus()">옆구리</label></center>
+								  <center><input class="choice click_side" id="hope_2" name="entry.272078534" type="radio" value="옆구리" /> <label class="label_button1" for="hope_2" onclick="jump_quest(0);focus()">옆구리</label></center>
 								  
-								  <center><input id="hope_3" name="entry.272078534" type="radio" value="허벅지" /> <label class="label_button1 choice click_thigh" for="hope_3" onclick="jump_quest(0);focus()">허벅지</label></center>
+								  <center><input class="choice click_thigh" id="hope_3" name="entry.272078534" type="radio" value="허벅지" /> <label class="label_button1" for="hope_3" onclick="jump_quest(0);focus()">허벅지</label></center>
 								 
-								  <center><input id="hope_4" name="entry.272078534" type="radio" value="등" /> <label class="label_button1 choice click_back" for="hope_4" onclick="jump_quest(0);focus()">등</label></center>
+								  <center><input class="choice click_back" id="hope_4" name="entry.272078534" type="radio" value="등" /> <label class="label_button1" for="hope_4" onclick="jump_quest(0);focus()">등</label></center>
 								 
-								  <center><input id="hope_5" name="entry.272078534" type="radio" value="종아리" /> <label class="label_button1 choice click_calf" for="hope_5" onclick="jump_quest(0);focus()">종아리</label></center>
+								  <center><input class="choice click_calf"" id="hope_5" name="entry.272078534" type="radio" value="종아리" /> <label class="label_button1" for="hope_5" onclick="jump_quest(0);focus()">종아리</label></center>
 							
 
 							  <!-- chat -->
