@@ -2,13 +2,14 @@ const template = document.getElementById('headerTemplate');
 template.innerHTML = `
 <header>
 <nav class="top">
-    <a class="logo"  target="_self" >
+    <a href="#" class="logo"  target="_self" >
       <!-- <p class="logo-font">D I E T E V E N T</p> -->
-      <img alt="" src="./diet-logo.png" ><span class="blink" style="font-size:13px;white-space:nowrap;padding-left:8px">[조기 마감 임박]</span>
+      <img alt="" src="./diet-logo.png" > 
+      <!-- <span class="blink" style="font-size:13px;white-space:nowrap;padding-left:8px;">[조기 마감 임박]</span> -->
     
     </a>
     <div class="menu-btn">
-      <button class="menu_btn" onclick="jump_quest(7)">무료체형분석</button>
+      <button class="menu_btn" onclick="jump_quest(7)" style="margin-top:5px;">무료체형분석</button>
        <button class="total_menu"><img src="./hamburger.svg" style="width:17px"></button>
     </div>
 </nav>
