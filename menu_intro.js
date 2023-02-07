@@ -10,7 +10,7 @@ template.innerHTML = `
     </a>
     <div class="menu-btn">
       <button class="menu_btn" onclick="jump_quest(7)" style="margin-top:5px;">무료체형분석</button>
-       <button class="total_menu"><img src="./hamburger.svg" style="width:17px"></button>
+       <button class="total_menu"><img src="./hamburger.svg" style="width:17px;margin-top:2px;"></button>
     </div>
 </nav>
 
