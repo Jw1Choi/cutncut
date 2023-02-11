@@ -39,7 +39,9 @@ function jump_quest(i){
    
    setTimeout(function() {
    $('.backg').hide();
+
    $('#quest'+i+'_wrap').show();
+
    $(window).scrollTop(0);	
 }, 400);
    
@@ -107,8 +109,31 @@ function ja_p() {
 	}
   }
 
+  function menu_remove() {
+	$('.float').css({transition:"1s"});
+    $('.float').css({background:"transparent"});
+    $('.float').css({border:"1px solid #1b1b1b"});
+    $('.float').css({color:"#1b1b1b"});
+	setTimeout(function() {
+	$('#floating_menu').hide();
+	$('.mn_ex,.total_menu').hide();
+	$('.mn_su').hide();
+
+}, 250);
+
+$('.wrap').stop().animate({'margin-left' : '0%'})
+$('header .ham-con').removeClass("on");
+$('body').css('overflow-y','scroll');	
+$('header .ham-con .container-box > .top').removeClass('on')
+setTimeout(function() {
+	$('.ham-con').hide();
+}, 300); 
+
+  }
+
 $(function(){
     $('#quest11_1').on('click',yo);
     $('#quest11_2').on('click',namyo);
     $('#quest1_1,#quest1_2,#quest1_3,#quest1_4,#quest1_5').on('click',ja_p);
+	$('.float').on('click',menu_remove);
 })

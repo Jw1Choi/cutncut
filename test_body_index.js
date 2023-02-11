@@ -11,31 +11,15 @@ testbody.innerHTML =`
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
 							 					  
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:2000px;max-height:2400px">
+								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:950px;max-height:1200px">
 							 
-								  
-								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-								  <h3>공부 집중력 검사 이벤트 안내</h3> 
-								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">다이어트에는 의지박약인 당신!<br>이번 만큼은 포기없이 건강하게<br>예쁜 옷 마음껏 입고 싶지 않으세요?</span></h1></center><br>
+								  <div class="img-text md-top3 lg-top3 top-space" style="font-size:14px;">
+								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white">올바른 수면을 통해<br>자면서 감량할 수 있도록 도와드리는<br>SLEEP & DIET 입니다.<br></span></h1></center>
 			
-								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">그렇다면 지금 페이지를<br>놓치지 말고 끝까지 읽어보세요.<br>무료로 제공되는 것만으로도<br>충분히 큰 도움이 됩니다.</span></h1></center>
-
-
-
-
-
-
-
-
-
-
-
-
-								  
-								  <section id="clients" class="wow fadeInUp"><br>
+								  <section id="clients" class="wow fadeInUp"><br><br>
 								<!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
 								  <div class="container">
-								  <hr style="background-color:#fff;width:90%;margin-bottom:30px">
+			
 							
 										<div class="owl-carousel clients-carousel">
 			
@@ -60,49 +44,87 @@ testbody.innerHTML =`
 									<!-- end flat slide -->		
 			
 			
-
+												<!-- <div>  
+												<p class="txt-tip">1) 살이 점점 안빠지고<br>체중이 늘기만 하는 이유?</p>	
+													<center><img class="img_slide" src="img/ft.jpg" alt="" ></center>
+													<p class="txt-tip">체지방을 없애고 근육을 만드는 핵심인<br>성장호르몬이 20대 이후 감소하면서<br>나잇살이 생기고 안빠지는 체질이 됩니다.<br>[출처: 서울대학교 병원]</p>	
+														<div class="row ">
+															<div class="col-lg-4 col-4 text-center">
+															<p class="txt-tip">체지방 분해<br>근육을 만드는<br>성장호르몬의 감소<br></p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<p class="txt-tip"></p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
+															<p class="txt-tip">체지방 </p>
+															</div>
+												
+													
+														</div>
+												</div> -->
+			
+												<!-- <div>  
+												<p class="txt-tip">2) 성장호르몬 분비를 다시 촉진시켜<br>감량에 도움되게 하는 가장 좋은 방법은 수면입니다.</p>	
+													<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center><br>
+														<div class="row ">
+															<div class="col-lg-4 col-4 text-center">
+														
+															<p class="txt-tip">1. 좋은 수면<br>(하루 성장호르몬의 60~70% 분비)</p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+														
+															<p class="txt-tip">2. 규칙적 운동<br>(운동시 분비 촉진)</p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<p class="txt-tip">3. 균형잡힌 식단<br>(혈당 낮을 때 분비)</p>
+															</div>
+												
+													
+														</div>
+												</div> -->
 			
 												<div>  
-												<p class="txt-tip">요요 걱정 줄이고</p>	
-													
+												<p class="txt-tip">3) 수면의 장점을 활용해<br>올바른 감량을 진행할 수 있다면?</p>	
+												<center><img class="img_slide" src="./cutncut-intro.png" alt="" ></center><br><br>
+														<p class="txt-tip">SLEEP & DIET 수면 프로그램은<br>이 질문에 대한 긴 고민과 연구 끝에 태어났습니다.</p>	
 												</div>
+			
+												<!-- <div>
+												<p class="txt-tip"></p><br> 	
+													<center><img class="img_slide" src="img/cutncut-intro.png" alt="" ></center><br>
+														<div class="row ">
+															<div class="col-lg-4 col-4 text-center">
+															<span >500</span><span class="txt-tip">mg</span>
+															<p class="txt-tip">감태추출물<br>(수면 개선에 도움 줄 수 있음)</p>
+															</div>
 												
-												<div>  
-												<p class="txt-tip">정체기 극복은 쉽게</p>	
+															<div class="col-lg-4 col-4 text-center">
+															<span>500</span><span class="txt-tip">mg</span>
+															<p class="txt-tip">콜레우스포스콜리추출물<br>(체지방 감소 도움 줄 수 있음)</p>
+															</div>
+												
+															<div class="col-lg-4 col-4 text-center">
+															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
+															<p class="txt-tip">식약처 기능성 인증</p>
+															</div>
+												
 													
-												</div>
-
-												<div>  
-												<p class="txt-tip">유지어터가 되도록</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">작심삼일 X</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">어머님도 쉽게</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">갱년기 시기에도 OK</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">식단 조절을 편하게</p>	
-												</div>
-											
+														</div>
+												</div> -->
 										</div>
 										<hr style="background-color:#fff;width:90%;margin-bottom:30px">
 								  </div>
 				
 								</section>
-
-								<center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">"왜 나는 자꾸만 포기하게 될까?"<br>스스로 궁금한 적 있지 않았나요?<br><br>어떤 사람들은 꾸준히 감량하고<br>예뻐져서 부러움을 한껏 받는데<br>왜 나는 그러지 못하고 찌고만 있는지?<br><br>모든 현상에는 반드시 이유가 있습니다.</span></h1></center><br>
-
+			
 								<!-- <div class="col-lg-12 col-md-12 wow fadeInUp">
 			   <div class="member">
-			  <img class="br80" src="./ezgif-frame-041.jpg" class="img-fluid" alt="" style="width:80%;object-fit:cover;max-width:400px" />
+			  <img class="br80" src="img/sleep_product.png" class="img-fluid" alt="" style="width:80%;object-fit:cover;max-width:400px" />
 			  </div>
 			  </div><br>
 								  <div class="row counters">
@@ -117,7 +139,7 @@ testbody.innerHTML =`
 								  </div>
 					  
 								  <div class="col-lg-4 col-4 text-center">
-									<img src="./gmp-ffood.png" class="gmp" style="width:100%">
+									<img src="./gmp-ffood.png" class="gmp">
 									<p class="txt-tip">식약처 기능성 인증</p>
 								  </div> 
 			
@@ -133,7 +155,7 @@ testbody.innerHTML =`
 			
 								 <div class="col-12 col50 text-center pad-msg" >
 								 
-								 <span class="tip-text">여러분의 체형에 맞게<br>올바른 감량을 도와드립니다.</span><br><br>	
+								 <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
 								 </div>
 			
 									 </div> </center><br>
@@ -143,7 +165,7 @@ testbody.innerHTML =`
 					
 							
 						  
-							 <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="시작하기" style="text-align:center;" >
+							  <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="시작하기" style="text-align:center;" >
 							  <label class="label_button1" id="start0" for="quest00_1" onclick="go_sub()"><span style="font-size: 16px;"></span><span >시작하기</span></label>
 							  
 							  <br>
@@ -804,12 +826,10 @@ testbody.innerHTML =`
 		</div>
 	  </div>
 
-	  <!-- Code begins here -->
-<div id="floating_menu">
-<button onclick="jump_quest(7);menu_remove()" class="float" style="z-index: 999;">
-<p style="padding:17px;">무료 체형 분석</p></button>
-</div>
-
+      <div id="floating_menu">
+			<button onclick="jump_quest(7);menu_remove()" class="float" style="z-index: 999;">
+			<p style="padding:17px;">무료 체형 분석</p></button>
+			</div>
 `;
 
 document.body.appendChild(testbody.content);

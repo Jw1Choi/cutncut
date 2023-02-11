@@ -83,6 +83,32 @@
 
 @keyframes blink-effect{50%{opacity:0;}}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -106,10 +132,10 @@ h1 {
 
 h2{
 	font-size: 2em;
-  font-family: 'NotoSansCJK';
+  font-family: 'RIDIBatang';
   font-weight: 500;
   margin: 0 0; 
-  color:#464448;
+  color:#c7b583;
 	padding-bottom:20px;
 	text-align:center;
 }
@@ -117,7 +143,7 @@ h2{
 h3{
 	font-size: 2em;
   margin: 0 0; 
-  color:#464448;
+  color:#c7b583;
 	padding-bottom:20px;
 	text-align:center;
   font-family: 'RIDIBatang';
@@ -1318,6 +1344,13 @@ color: rgba(255, 255, 255, 0.898);
   font-weight: 500;
 }
 
+.quests{
+  font-family: 'RIDIBatang';
+	font-size:17px;
+	color:#464448;
+  font-weight: 500;
+}
+
 .finalm{
  font-family: 'RIDIBATANG';
 	font-size:18px;
@@ -2394,6 +2427,10 @@ font-family: 'RIDIBATANG';
   line-height:1.6 !important;
 }
 
+.mn_ex{
+  display: none ;
+}
+
 }
 
 @media screen and (max-width: 568px) {
@@ -2437,6 +2474,11 @@ text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
  
   .questm{
     font-size:20px;
+    white-space: nowrap;
+  }
+
+  .quests{
+    font-size:15px;
     white-space: nowrap;
   }
 
@@ -3880,3 +3922,30 @@ width:80%;
 .br0{
   filter:brightness(0);
 }
+
+
+
+.float{
+	position:fixed;
+	width:99%;
+	height:60px;
+	bottom:3px;
+  left:0.5%;
+  background: linear-gradient(31.37deg, #0f0f0f 10%, #5a5a5a 60.17%, #151414 93.23%) repeat;
+	animation: gradient 5s ease infinite;
+	-webkit-animation: gradient 5s ease infinite;
+  color:#FFF;
+	border-radius:3px;
+  border:1px solid white;
+	text-align:center;
+  background-size: 450% 100%;
+  font-size:19px;
+  font-family: 'RIDIBatang';
+  cursor:pointer;
+	/* box-shadow: 2px 2px 3px #999; */
+}
+
+.my-float{
+	margin-top:22px;
+}
+

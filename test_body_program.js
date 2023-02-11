@@ -15,7 +15,7 @@ testbody.innerHTML =`
 							 
 								  
 								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-								  <h3>공부 집중력 검사 이벤트 안내</h3> 
+								  <h3>PROGRAM</h3> 
 								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">다이어트에는 의지박약인 당신!<br>이번 만큼은 포기없이 건강하게<br>예쁜 옷 마음껏 입고 싶지 않으세요?</span></h1></center><br>
 			
 								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">그렇다면 지금 페이지를<br>놓치지 말고 끝까지 읽어보세요.<br>무료로 제공되는 것만으로도<br>충분히 큰 도움이 됩니다.</span></h1></center>

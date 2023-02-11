@@ -80,7 +80,7 @@ header .ham-con .container-box >  .top div {display: flex; width: 100%; align-it
 header .ham-con .container-box > .top  svg {width: 25px; height: 25px; stroke: #fafafa;}
 header .ham-con .container-box > .top .back { display: none; width: 40px; height: 40px;border:0px;background:transparent;}
 header .ham-con .container-box > .top .back svg {transform: rotate(90deg);}
-header .ham-con .container-box > .top .txt-cg { display: none; font-size: 16px; line-height: 1.5;font-weight: 500;color: #141414;text-align: center;}
+header .ham-con .container-box > .top .txt-cg { display: none; font-size: 16px; line-height: 1.5;font-weight: 500;color: #141414;text-align: center; margin-bottom:-3px ; }
 header .ham-con .container-box > .top.on {position: fixed; width: 400px; height: 65px;  z-index: 99; padding: 0 10px ;}
 header .ham-con .container-box > .top.on .back,
 header .ham-con .container-box > .top.on .txt-cg {display: inline-block !important;}
@@ -92,7 +92,7 @@ header .ham-con .menu .middle {}
 header .ham-con .menu .middle ul {}
 header .ham-con .menu .middle ul li { padding: 10px 25px 10px 25px; display: flex; justify-content: space-between; cursor: pointer;}
 header .ham-con .menu .middle ul li p,
-header .ham-con .menu .middle ul li a {display: block;width: 100%;font-size: 20px; line-height: 1.4;font-weight: 400;}
+header .ham-con .menu .middle ul li a {display: block;width: 100%;font-size: 16px; line-height: 140%;font-weight: 400;}
 header .ham-con .menu .middle ul li:hover {background-color: #fafafa;}
 .pad {padding-top: 0px;}
 .pad-top {padding: 12px 25px 10px !important;}

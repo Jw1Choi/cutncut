@@ -2,14 +2,17 @@ const template = document.getElementById('headerTemplate');
 template.innerHTML = `
 <header>
 <nav class="top">
-    <a href="#" class="logo"  target="_self" >
+    <a href="./index.html" class="logo"  target="_self" >
       <!-- <p class="logo-font">D I E T E V E N T</p> -->
       <img alt="" src="./diet-logo.png" > 
       <!-- <span class="blink" style="font-size:13px;white-space:nowrap;padding-left:8px;">[조기 마감 임박]</span> -->
     
     </a>
     <div class="menu-btn">
-      <button class="menu_btn" onclick="jump_quest(7)" style="margin-top:3px;">무료체형분석</button>
+    <button class="menu_btn mn_ex" onclick="location.href='./index.html'" style="margin-top:3px;">HOME</button>
+      <button class="menu_btn mn_ex" onclick="location.href='./about.html'" style="margin-top:3px;">ABOUT</button>
+      <button class="menu_btn mn_ex" onclick="location.href='./program.html'" style="margin-top:3px;">PROGRAM</button>
+      <button class="menu_btn mn_su" onclick="jump_quest(7);menu_remove()" style="margin-top:3px;">무료체형분석</button>
        <button class="total_menu"><img src="./hamburger.svg" style="width:17px;"></button>
     </div>
 </nav>
@@ -42,9 +45,11 @@ template.innerHTML = `
                 <div class="middle">
                     <ul class="left">
                         <li><p><a target="_self" href="./index.html">HOME</a></p></li>
-                        <li><p><a target="_self" href="./cutncut.html">다이어트 신청</a></p></li>
-                        <!-- <li class="tab02" data-rel="menu-01" data-tit="다이어트"><p>다이어트</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li>-->
-                        <li class="tab02" data-rel="menu-02" data-tit="다이어트 테스트"><p>다이어트 테스트</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li> 
+                        <li><p><a target="_self" href="./about.html">ABOUT US</a></p></li>
+                        <li><p><a target="_self" href="./program.html">PROGRAM</a></p></li>
+                        <li><p><a target="_self" href="javascript:jump_quest(7);menu_remove();">무료체형분석</a></p></li>
+                        <li class="tab02" data-rel="menu-01" data-tit="EVENT"><p>EVENT</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li>
+                        <!--<li class="tab02" data-rel="menu-02" data-tit="다이어트 테스트"><p>다이어트 테스트</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li> -->
                         <!-- <li class="tab02" data-rel="menu-04" data-tit="다이어트 연재"><p>다이어트 연재</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li> -->
                         
                     </ul>
