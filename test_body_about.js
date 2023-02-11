@@ -15,13 +15,51 @@ testbody.innerHTML =`
 							 
 								  
 								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-								  <h3>ABOUT</h3> 
-								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">다이어트에는 의지박약인 당신!<br>이번 만큼은 포기없이 건강하게<br>예쁜 옷 마음껏 입고 싶지 않으세요?</span></h1></center><br>
+								  <h2>ABOUT US</h2> 
+								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활 습관을 찾으면서<br>자연스럽게 빠지게 되는 것입니다.</span></h1></center><br>
 			
-								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">그렇다면 지금 페이지를<br>놓치지 말고 끝까지 읽어보세요.<br>무료로 제공되는 것만으로도<br>충분히 큰 도움이 됩니다.</span></h1></center>
+							<br><Br>
 
 
-
+								  <section id="about">
+								  <div class="container">
+									<div class="row">
+									  <div class="col-lg-6 col-md-6">
+										<div class="about-img">
+										  <img src="./model.jpg" style="width:96%" alt="" />
+										</div>
+									  </div>
+						  
+									  <div class="col-lg-6 col-md-6">
+										<div class="about-content">
+										  <h2>살이 자꾸만 불어난다는 것은?</h2>
+										 
+										  <!-- <ul>
+											<li>
+											  <i class="ion-android-checkmark-circle"></i> 프로필
+											</li>
+											<li>
+											  <i class="ion-android-checkmark-circle"></i> Duis aute irure
+											  dolor in reprehenderit in voluptate velit.
+											</li>
+											<li>
+											  <i class="ion-android-checkmark-circle"></i> Ullamco laboris
+											  nisi ut aliquip ex ea commodo consequat. Duis aute irure
+											  dolor in reprehenderit in voluptate trideta storacalaperda
+											  mastiro dolore eu fugiat nulla pariatur.
+											</li>
+										  </ul> -->
+						  
+										  <p>
+											건강의 밸런스가 깨진 것입니다.
+										  </p><br>
+										
+										  
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</section>
 
 
 

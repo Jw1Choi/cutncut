@@ -48,7 +48,7 @@ template.innerHTML = `
                         <li><p><a target="_self" href="./about.html">ABOUT US</a></p></li>
                         <li><p><a target="_self" href="./program.html">PROGRAM</a></p></li>
                         <li><p><a target="_self" href="javascript:jump_quest(7);menu_remove();">무료체형분석</a></p></li>
-                        <li class="tab02" data-rel="menu-01" data-tit="EVENT"><p>EVENT</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li>
+                        <!-- <li class="tab02" data-rel="menu-01" data-tit="EVENT"><p>EVENT</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li> -->
                         <!--<li class="tab02" data-rel="menu-02" data-tit="다이어트 테스트"><p>다이어트 테스트</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li> -->
                         <!-- <li class="tab02" data-rel="menu-04" data-tit="다이어트 연재"><p>다이어트 연재</p><img width="24" height="24" src="./navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv"></li> -->
                         

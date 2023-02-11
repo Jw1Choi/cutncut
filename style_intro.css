@@ -2431,6 +2431,10 @@ font-family: 'RIDIBATANG';
   display: none ;
 }
 
+.about-content{
+  margin-top:40px;
+}
+
 }
 
 @media screen and (max-width: 568px) {
