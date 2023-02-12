@@ -15,10 +15,32 @@ testbody.innerHTML =`
 							 
 								  
 								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-								  <h2>ABOUT US</h2> 
-								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활 습관을 찾으면서<br>자연스럽게 빠지게 되는 것입니다.</span></h1></center><br>
+
+
+
+							<section id="team" class="section-bg">
+							<div class="container">
+							  <div class="section-header" style="padding-left:15px">
+							  <h2 style="text-align:left" class="textleft">ABOUT US</h2> 
+							
 			
-							<br><Br>
+							  <br><Br>
+								<h3 style="text-align:left" class="textleft">의지박약에 작심삼일을 반복하는 분들도<br>다이어트를 지속적으로 올바르고 건강하게</h3>
+								<p style="text-align:left" class="textleft questm">
+								 굶거나 극단적으로 적게 먹는 감량법은<br>
+								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>
+								</p>
+							  </div>
+					  <br>
+							
+						  </section>
+
+
+
+
+
+
+
 
 
 								  <section id="about">
@@ -32,7 +54,7 @@ testbody.innerHTML =`
 						  
 									  <div class="col-lg-6 col-md-6">
 										<div class="about-content">
-										  <h2>살이 자꾸만 불어난다는 것은?</h2>
+										  <h3>다이어트는 올바른 건강습관을<br>회복하면서 생기는 결과입니다.</h2>
 										 
 										  <!-- <ul>
 											<li>
@@ -50,8 +72,10 @@ testbody.innerHTML =`
 											</li>
 										  </ul> -->
 						  
-										  <p>
-											건강의 밸런스가 깨진 것입니다.
+										  <p class="questm">
+										  다이어트를 어떻게든 의지로만 참아내려고 하거나<br>
+										  몸을 혹사시켜 빼는 것으로 생각한다면 당장 멈추세요.<br><br>
+										  올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활 습관을 찾으면서<br>자연스럽게 빠지게 되는 결과입니다.
 										  </p><br>
 										
 										  
@@ -64,6 +88,8 @@ testbody.innerHTML =`
 
 
 
+							
+								<center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">"뭘 해도 잘 빠지지도 않고<br>건강하게 안빼면 이젠 안되겠는데..."<br><br>이런 마음을 가지고 계신데<br>어떻게 시작해야할지<br>감을 못잡으시는 분들을 위해<br><br>건강하고 올바른 다이어트를<br>쉽게 따라할 수 있도록<br>1:1 맞춤으로 도와드리고 있습니다.</span></h1></center><br>
 
 
 

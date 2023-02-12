@@ -131,22 +131,24 @@ h1 {
 }
 
 h2{
-	font-size: 2em;
+	font-size: 2.2em;
   font-family: 'RIDIBatang';
   font-weight: 500;
   margin: 0 0; 
   color:#c7b583;
 	padding-bottom:20px;
 	text-align:center;
+  line-height: 140%;
 }
 
 h3{
-	font-size: 2em;
+	font-size: 1.8em;
   margin: 0 0; 
   color:#c7b583;
-	padding-bottom:20px;
+	padding-bottom:40px;
 	text-align:center;
   font-family: 'RIDIBatang';
+  line-height: 140%;
 }
 
 
@@ -1340,15 +1342,15 @@ color: rgba(255, 255, 255, 0.898);
 .questm{
   font-family: 'RIDIBatang';
 	font-size:20px;
-	color:#464448;
-  font-weight: 500;
+	color:#efefef;
+  font-weight: 450;
 }
 
 .quests{
   font-family: 'RIDIBatang';
 	font-size:17px;
 	color:#464448;
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .finalm{

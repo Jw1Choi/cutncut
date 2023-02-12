@@ -44,7 +44,7 @@ template.innerHTML = `
               
                 <div class="middle">
                     <ul class="left">
-                        <li><p><a target="_self" href="./index.html">HOME</a></p></li>
+                        <li style="margin-top:15px;"><p><a target="_self" href="./index.html">HOME</a></p></li>
                         <li><p><a target="_self" href="./about.html">ABOUT US</a></p></li>
                         <li><p><a target="_self" href="./program.html">PROGRAM</a></p></li>
                         <li><p><a target="_self" href="javascript:jump_quest(7);menu_remove();">무료체형분석</a></p></li>
