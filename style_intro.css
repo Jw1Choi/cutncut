@@ -2479,13 +2479,13 @@ text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
 
  
   .questm{
-    font-size:20px;
-    white-space: nowrap;
+    font-size:14px;
+    /* white-space: nowrap; */
   }
 
   .quests{
     font-size:15px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
   }
 
   .agree{
@@ -3803,8 +3803,10 @@ align-items: center;
 flex: 1;
 }
 
-@media (max-width: 768px) {
-
+@media screen and (max-width: 430px) {
+  h3{
+    font-size: 1.3em !important;
+  }
 }
 
 
