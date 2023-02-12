@@ -9,122 +9,290 @@ testbody.innerHTML =`
 			  <form action="" id="form_e11" method="POST" target ="hidden_iframe11" onsubmit=" submitted=true;"> 
 					<div class="wow fadeIn bbackg"> 
 		
-							 <section  id="main_intro" class="backg" style="text-align: center;" >
+							 <section  id="main_intro" class="backg" style="text-align: center;">
 							 					  
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:950px;max-height:1200px">
+								<img src="./test-intro.jpg" class="bg-img br50" style="min-height:3000px;max-height:3000px">
 							 
-								  <div class="img-text md-top3 lg-top3 top-space" style="font-size:14px;">
-								  <center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white">올바른 수면을 통해<br>자면서 감량할 수 있도록 도와드리는<br>SLEEP & DIET 입니다.<br></span></h1></center>
-			
-								  <section id="clients" class="wow fadeInUp"><br><br>
-								<!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
-								  <div class="container">
-			
+								  
+								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
+
+
+
+							<section id="team" class="section-bg">
+							<div class="container">
+							  <div class="section-header" style="padding-left:15px">
+							  <h2 style="text-align:left" class="textleft">컷앤컷 핵심 프로그램</h2> 
 							
-										<div class="owl-carousel clients-carousel">
 			
-			
-									<!-- flat slide -->
-									<!--	<div>  
-												
-													
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-															<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
-															</div>
-												
-															<div class="col-lg-8 col-8 text-center">
-															
-															<p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
-															</div>
-					
-														</div>
-												</div> -->
-			
-									<!-- end flat slide -->		
-			
-			
-												<!-- <div>  
-												<p class="txt-tip">1) 살이 점점 안빠지고<br>체중이 늘기만 하는 이유?</p>	
-													<center><img class="img_slide" src="img/ft.jpg" alt="" ></center>
-													<p class="txt-tip">체지방을 없애고 근육을 만드는 핵심인<br>성장호르몬이 20대 이후 감소하면서<br>나잇살이 생기고 안빠지는 체질이 됩니다.<br>[출처: 서울대학교 병원]</p>	
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-															<p class="txt-tip">체지방 분해<br>근육을 만드는<br>성장호르몬의 감소<br></p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<p class="txt-tip"></p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
-															<p class="txt-tip">체지방 </p>
-															</div>
-												
-													
-														</div>
-												</div> -->
-			
-												<!-- <div>  
-												<p class="txt-tip">2) 성장호르몬 분비를 다시 촉진시켜<br>감량에 도움되게 하는 가장 좋은 방법은 수면입니다.</p>	
-													<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center><br>
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-														
-															<p class="txt-tip">1. 좋은 수면<br>(하루 성장호르몬의 60~70% 분비)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-														
-															<p class="txt-tip">2. 규칙적 운동<br>(운동시 분비 촉진)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<p class="txt-tip">3. 균형잡힌 식단<br>(혈당 낮을 때 분비)</p>
-															</div>
-												
-													
-														</div>
-												</div> -->
-			
-												<div>  
-												<p class="txt-tip">3) 수면의 장점을 활용해<br>올바른 감량을 진행할 수 있다면?</p>	
-												<center><img class="img_slide" src="./cutncut-intro.png" alt="" ></center><br><br>
-														<p class="txt-tip">SLEEP & DIET 수면 프로그램은<br>이 질문에 대한 긴 고민과 연구 끝에 태어났습니다.</p>	
-												</div>
-			
-												<!-- <div>
-												<p class="txt-tip"></p><br> 	
-													<center><img class="img_slide" src="img/cutncut-intro.png" alt="" ></center><br>
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-															<span >500</span><span class="txt-tip">mg</span>
-															<p class="txt-tip">감태추출물<br>(수면 개선에 도움 줄 수 있음)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<span>500</span><span class="txt-tip">mg</span>
-															<p class="txt-tip">콜레우스포스콜리추출물<br>(체지방 감소 도움 줄 수 있음)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
-															<p class="txt-tip">식약처 기능성 인증</p>
-															</div>
-												
-													
-														</div>
-												</div> -->
+							  <br><Br>
+								<h3 style="text-align:left" class="textleft">다이어트를 할 때</h3>
+								<p style="text-align:left" class="textleft questm">
+								 굶거나 극단적으로 적게 먹는 감량법은<br>
+								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>
+								</p>
+							  </div>
+					  <br>
+							
+						  </section>
+
+
+
+
+
+
+
+
+
+								  <section id="about">
+								  <div class="container">
+									<div class="row">
+									  <div class="col-lg-6 col-md-6">
+										<div class="about-img">
+										  <img src="./model.jpg" style="width:96%" alt="" />
 										</div>
-										<hr style="background-color:#fff;width:90%;margin-bottom:30px">
+									  </div>
+						  
+									  <div class="col-lg-6 col-md-6">
+										<div class="about-content">
+										  <h3>꾸준히 관리 성공하면서<br>예쁜 옷 마음껏 입고 싶으신가요?</h3>
+										 
+										  <!-- <ul>
+											<li>
+											  <i class="ion-android-checkmark-circle"></i> 프로필
+											</li>
+											<li>
+											  <i class="ion-android-checkmark-circle"></i> Duis aute irure
+											  dolor in reprehenderit in voluptate velit.
+											</li>
+											<li>
+											  <i class="ion-android-checkmark-circle"></i> Ullamco laboris
+											  nisi ut aliquip ex ea commodo consequat. Duis aute irure
+											  dolor in reprehenderit in voluptate trideta storacalaperda
+											  mastiro dolore eu fugiat nulla pariatur.
+											</li>
+										  </ul> -->
+						  
+										  <p class="questm">
+										  
+										  그렇다면 다이어트 관점부터 바꾸세요.<br>
+										  다이어트는 의지로 참고 견디는 것이 아니며<br>
+										  몸을 혹사시켜 빼는 것도 아닙니다.<br><br>
+										  올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활습관이 천천히<br>몸에 스며들게 되는 과정입니다.
+										  </p><br>
+										
+										  
+										</div>
+									  </div>
+									</div>
 								  </div>
-				
 								</section>
+
+
+
+								<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
+								<div class="container">
+								  <div class="section-header" style="padding-left:15px">
+								   
+								
+				
+								  <br><br>
+									<h3>올바른 다이어트를 좀 더 쉽고 편하게</h3>
+									<p class="textleft questm">
+									다이어트의 시작은 무조건 쉬워야 합니다.<br>스트레스를 받지 않고 꾸준히 할 수 있는<br>자신만의 맞춤 방법을 찾아드립니다.
+									</p><br>
+								  </div>
+						  <br>
+								
+							  </section>
+							
+							
+							  <section id="team" class="section-bg" style="width:100%;margin-top:40px">
+							  <div class="container">
+								<div class="section-header">
+								  <h3>컷앤컷만의 특별한 감량 노하우</h3>
+							   
+								
+								<div class="row">
+								
+						
+						
+								  <div class="col-lg-12 col-md-12 wow fadeInUp">
+									<div class="member">
+									  <img src="./ezgif-frame-041.jpg" class="img-fluid" alt="" style="max-height:460px;width:100%;object-fit:cover;margin-bottom:40px">
+									 
+									</div>
+								  </div>
+						
+								
+								  <div class="col-lg-4 col-md-4 wow fadeInUp">
+									<div class="member">
+									  <div class="profile no-margin">
+										<h3 class="left-text"><b>1) 현재 체형 & 습관 분석</b><br>여러분의 성향을 파악</h3>
+										<p class="questl" style="text-align: left;">
+										 여러분의 생활 습관을 통해 성향을 파악하고 체형을 분석합니다. 
+										</p>
+									</div>
+									 
+									</div>
+								  </div>
+						
+								  <div class="col-lg-4 col-md-4 wow fadeInUp">
+									<div class="member">
+									  <div class="profile no-margin">
+										<h3 class="left-text"><b>2) 맞춤 감량 제안</b><br>최적화된 감량 방식 추천</h3>
+										<p class="questl" style="text-align: left;">
+										성향에 맞는 다이어트 방식을 제안하여 스트레스 없이 편안하게   
+										
+										</p>
+									</div>
+									</div>
+								  </div>
+						
+								  <div class="col-lg-4 col-md-4 wow fadeInUp">
+									<div class="member">
+									  <div class="profile no-margin">
+										<h3 class="left-text"><b>3) 1:1 맞춤 감량 관리</b><br>습관화가 되도록 맞춤 코칭</h3>
+										<p class="questl" style="text-align: left;">
+										 난이도에 맞는 맞춤 관리를 통해 자연스럽게 감량이 되도록 코칭 
+										</p>
+									</div>
+									</div>
+								  </div>
+							
+								  
+						
+								</div>
+							  </div>
+							</section>
+
+
+
+
+							<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
+							<div class="container">
+							  <div class="section-header" style="padding-left:15px">
+							   
+							
 			
+							  <br><br>
+								<h3>올바른 감량이 필요하다면?<br>지금 기회를 놓치지 마세요!<br>무료 체형 분석 이벤트!</h3>
+								<p class="textleft questm">
+								여러분의 체형과 생활 습관을 분석하여<br>감량이 안되는 이유와<br>체형에 맞는 감량법을 찾아드려요.
+								</p>
+							  </div>
+							
+					  <section id="clients" class="wow fadeInUp"><br>
+					  <!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
+						<div class="container">
+						<hr style="background-color:#fff;width:90%;margin-bottom:30px">
+				  
+							  <div class="owl-carousel clients-carousel">
+  
+  
+						  <!-- flat slide -->
+						  <!--	<div>  
+									  
+										  
+											  <div class="row ">
+												  <div class="col-lg-4 col-4 text-center">
+												  <center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
+												  </div>
+									  
+												  <div class="col-lg-8 col-8 text-center">
+												  
+												  <p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
+												  </div>
+		  
+											  </div>
+									  </div> -->
+  
+						  <!-- end flat slide -->		
+  
+  
+
+  
+									  <div>  
+									  <p class="txt-tip">요요 걱정 줄이고</p>	
+										  
+									  </div>
+									  
+									  <div>  
+									  <p class="txt-tip">정체기 극복은 쉽게</p>	
+										  
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">유지어터가 되도록</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">작심삼일 X</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">어머님도 쉽게</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">갱년기 시기에도 OK</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">식단 조절을 편하게</p>	
+									  </div>
+								  
+							  </div>
+							  <hr style="background-color:#fff;width:90%;margin-bottom:30px">
+						</div>
+	  
+					  </section>
+
+					  <!-- chat -->
+					  <center> <div class=" alert_msg">
+					   <div class="col-2  pad0" style="float:left;margin-right:30px">
+					   <center><img class="chat_img " src="./guide.png" ></center>
+					   </div>
+  
+					   <div class="col-12 col50 text-center pad-msg" >
+					   
+					   <span class="tip-text">여러분의 체형에 맞게<br>올바른 감량을 도와드립니다.</span><br><br>	
+					   </div>
+  
+						   </div> </center><br>
+  
+				   <!-- end chat -->
+		  
+		  
+				  
+				
+				   <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="무료 체형 분석" style="text-align:center;" >
+					<label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >무료 체형 분석</span></label>
+					
+					<br>
+					<input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
+					<label class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree11">개인정보동의</label>
+					
+				  
+	
+				  <span class="privacyBtn" onclick="privacyPopUp()">
+					[자세히보기]
+				  </span>
+				  <br>
+				  <span class="alert"  id="alert_41">　</span>
+					</center>
+																<!--원하는 영역을 가도록 수정법= 'onclick = jump_quest(원하는 영역 번호)'를 작성-->
+																<!--버튼 글자 수정 = '시작하기 >>' 부분을 원하는대로 수정해주시면 됩니다.-->
+						  </section>
+
+
+								  
+								
+
+						
+
 								<!-- <div class="col-lg-12 col-md-12 wow fadeInUp">
 			   <div class="member">
-			  <img class="br80" src="img/sleep_product.png" class="img-fluid" alt="" style="width:80%;object-fit:cover;max-width:400px" />
+			  <img class="br80" src="./ezgif-frame-041.jpg" class="img-fluid" alt="" style="width:80%;object-fit:cover;max-width:400px" />
 			  </div>
 			  </div><br>
 								  <div class="row counters">
@@ -139,7 +307,7 @@ testbody.innerHTML =`
 								  </div>
 					  
 								  <div class="col-lg-4 col-4 text-center">
-									<img src="./gmp-ffood.png" class="gmp">
+									<img src="./gmp-ffood.png" class="gmp" style="width:100%">
 									<p class="txt-tip">식약처 기능성 인증</p>
 								  </div> 
 			
@@ -147,41 +315,7 @@ testbody.innerHTML =`
 					
 			
 			
-								<!-- chat -->
-								<center> <div class=" alert_msg">
-								 <div class="col-2  pad0" style="float:left;margin-right:30px">
-								 <center><img class="chat_img " src="./guide.png" ></center>
-								 </div>
-			
-								 <div class="col-12 col50 text-center pad-msg" >
-								 
-								 <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
-								 </div>
-			
-									 </div> </center><br>
-			
-							 <!-- end chat -->
-					
-					
-							
-						  
-							  <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="시작하기" style="text-align:center;" >
-							  <label class="label_button1" id="start0" for="quest00_1" onclick="go_sub()"><span style="font-size: 16px;"></span><span >시작하기</span></label>
-							  
-							  <br>
-							  <input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
-							  <label class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree11">개인정보동의</label>
-							  
-							
-			  
-							<span class="privacyBtn" onclick="privacyPopUp()">
-							  [자세히보기]
-							</span>
-							<br>
-							<span class="alert"  id="alert_41">　</span>
-							  </center>
-																		  <!--원하는 영역을 가도록 수정법= 'onclick = jump_quest(원하는 영역 번호)'를 작성-->
-																		  <!--버튼 글자 수정 = '시작하기 >>' 부분을 원하는대로 수정해주시면 됩니다.-->
+
 							  </div>
 							  </section>
 
@@ -699,23 +833,24 @@ testbody.innerHTML =`
 							
 					 </section>
 							 
-						 <footer id="footer" class="section-bg">
-						  <div class="footer-top">
-							<div class="container">
-							  <div class="row">
-									<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								  <span>사업자번호: 641-86-00917</span><br>
-								  <span>광고사전심의필: 210610800</span><br>
-								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
-					  
-								</div>
-							  </div>
-							</div>
-						</footer>				
-								   
-			  
-		<!-- // footer -->
+					 <footer id="footer" class="section-bg">
+					 <div class="footer-top">
+					   <div class="container">
+						 <div class="row">
+							   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+							 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+							 <span>사업자번호: 641-86-00917</span><br>
+							 <span>광고사전심의필: 210610800</span><br>
+							 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+				 
+						   </div>
+						 </div>
+					   </div>
+					   <br><br>
+				   </footer>				
+							  
+		 
+   <!-- // footer -->
 				  
 		  </div>
 		
@@ -826,10 +961,12 @@ testbody.innerHTML =`
 		</div>
 	  </div>
 
-      <div id="floating_menu">
-			<button onclick="jump_quest(7);menu_remove()" class="float" style="z-index: 999;">
-			<p style="padding:17px;">무료 체형 분석</p></button>
-			</div>
+	  <!-- Code begins here -->
+<div id="floating_menu">
+<button onclick="jump_quest(7);menu_remove()" class="float" style="z-index: 999;">
+<p style="padding:17px;">무료 체형 분석</p></button>
+</div>
+
 `;
 
 document.body.appendChild(testbody.content);

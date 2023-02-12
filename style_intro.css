@@ -1346,6 +1346,13 @@ color: rgba(255, 255, 255, 0.898);
   font-weight: 450;
 }
 
+.questl{
+  font-family: 'RIDIBatang';
+	font-size:17px;
+	color:#efefef;
+  font-weight: 450;
+}
+
 .quests{
   font-family: 'RIDIBatang';
 	font-size:17px;
@@ -3609,7 +3616,14 @@ body.overflow {
       margin-top: 15px;
 
       width:92%;
-    } }
+    } 
+  
+    .left-text{
+      text-align: left;
+      margin-top: 20px;
+ 
+    }
+  }
 
     @media screen and (min-width:1000px) {
          .article_view1 {
@@ -3925,7 +3939,7 @@ width:80%;
 	margin-top:22px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 992px) {
  
   .img-text{
     font-size:14px;
@@ -3933,10 +3947,15 @@ width:80%;
   }
 
   h3{
-    font-size: 1.2em !important;
+    font-size: 20px !important;
   }
  
   .questm{
+    font-size:16px;
+    /* white-space: nowrap; */
+  }
+
+  .questl{
     font-size:16px;
     /* white-space: nowrap; */
   }

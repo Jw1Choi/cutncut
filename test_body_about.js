@@ -11,7 +11,7 @@ testbody.innerHTML =`
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
 							 					  
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:2000px;max-height:2400px">
+								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3000px;max-height:3000px">
 							 
 								  
 								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
@@ -25,7 +25,7 @@ testbody.innerHTML =`
 							
 			
 							  <br><Br>
-								<h3 style="text-align:left" class="textleft">의지박약에 작심삼일을 반복하는 분들도<br>다이어트를 지속적으로 올바르고 건강하게</h3>
+								<h3 style="text-align:left" class="textleft">의지박약, 작심삼일을 반복하는 분도<br>감량을 지속적으로 올바르고 건강하게</h3>
 								<p style="text-align:left" class="textleft questm">
 								 굶거나 극단적으로 적게 먹는 감량법은<br>
 								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>
@@ -54,7 +54,7 @@ testbody.innerHTML =`
 						  
 									  <div class="col-lg-6 col-md-6">
 										<div class="about-content">
-										  <h2>다이어트는 올바른 건강습관을<br>회복하면서 생기는 결과입니다.</h2>
+										  <h3>꾸준히 관리 성공하면서<br>예쁜 옷 마음껏 입고 싶으신가요?</h3>
 										 
 										  <!-- <ul>
 											<li>
@@ -73,9 +73,11 @@ testbody.innerHTML =`
 										  </ul> -->
 						  
 										  <p class="questm">
-										  다이어트를 어떻게든 의지로만 참아내려고 하거나<br>
-										  몸을 혹사시켜 빼는 것으로 생각한다면 당장 멈추세요.<br><br>
-										  올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활 습관을 찾으면서<br>자연스럽게 빠지게 되는 결과입니다.
+										  
+										  그렇다면 다이어트 관점부터 바꾸세요.<br>
+										  다이어트는 의지로 참고 견디는 것이 아니며<br>
+										  몸을 혹사시켜 빼는 것도 아닙니다.<br><br>
+										  올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활습관이 천천히<br>몸에 스며들게 되는 과정입니다.
 										  </p><br>
 										
 										  
@@ -87,82 +89,206 @@ testbody.innerHTML =`
 
 
 
-
+								<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
+								<div class="container">
+								  <div class="section-header" style="padding-left:15px">
+								   
+								
+				
+								  <br><br>
+									<h3>올바른 다이어트를 좀 더 쉽고 편하게</h3>
+									<p class="textleft questm">
+									다이어트의 시작은 무조건 쉬워야 합니다.<br>스트레스를 받지 않고 꾸준히 할 수 있는<br>자신만의 맞춤 방법을 찾아드립니다.
+									</p><br>
+								  </div>
+						  <br>
+								
+							  </section>
 							
-								<center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">"뭘 해도 잘 빠지지도 않고<br>건강하게 안빼면 이젠 안되겠는데..."<br><br>이런 마음을 가지고 계신데<br>어떻게 시작해야할지<br>감을 못잡으시는 분들을 위해<br><br>건강하고 올바른 다이어트를<br>쉽게 따라할 수 있도록<br>1:1 맞춤으로 도와드리고 있습니다.</span></h1></center><br>
+							
+							  <section id="team" class="section-bg" style="width:100%;margin-top:40px">
+							  <div class="container">
+								<div class="section-header">
+								  <h3>컷앤컷만의 특별한 감량 노하우</h3>
+							   
+								
+								<div class="row">
+								
+						
+						
+								  <div class="col-lg-12 col-md-12 wow fadeInUp">
+									<div class="member">
+									  <img src="./ezgif-frame-041.jpg" class="img-fluid" alt="" style="max-height:460px;width:100%;object-fit:cover;margin-bottom:40px">
+									 
+									</div>
+								  </div>
+						
+								
+								  <div class="col-lg-4 col-md-4 wow fadeInUp">
+									<div class="member">
+									  <div class="profile no-margin">
+										<h3 class="left-text"><b>1) 현재 체형 & 습관 분석</b><br>여러분의 성향을 파악</h3>
+										<p class="questl" style="text-align: left;">
+										 여러분의 생활 습관을 통해 성향을 파악하고 체형을 분석합니다. 
+										</p>
+									</div>
+									 
+									</div>
+								  </div>
+						
+								  <div class="col-lg-4 col-md-4 wow fadeInUp">
+									<div class="member">
+									  <div class="profile no-margin">
+										<h3 class="left-text"><b>2) 맞춤 감량 제안</b><br>최적화된 감량 방식 추천</h3>
+										<p class="questl" style="text-align: left;">
+										성향에 맞는 다이어트 방식을 제안하여 스트레스 없이 편안하게   
+										
+										</p>
+									</div>
+									</div>
+								  </div>
+						
+								  <div class="col-lg-4 col-md-4 wow fadeInUp">
+									<div class="member">
+									  <div class="profile no-margin">
+										<h3 class="left-text"><b>3) 1:1 맞춤 감량 관리</b><br>습관화가 되도록 맞춤 코칭</h3>
+										<p class="questl" style="text-align: left;">
+										 난이도에 맞는 맞춤 관리를 통해 자연스럽게 감량이 되도록 코칭 
+										</p>
+									</div>
+									</div>
+								  </div>
+							
+								  
+						
+								</div>
+							  </div>
+							</section>
 
 
 
+
+							<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
+							<div class="container">
+							  <div class="section-header" style="padding-left:15px">
+							   
+							
+			
+							  <br><br>
+								<h3>올바른 감량이 필요하다면?<br>지금 기회를 놓치지 마세요!<br>무료 체형 분석 이벤트!</h3>
+								<p class="textleft questm">
+								여러분의 체형과 생활 습관을 분석하여<br>감량이 안되는 이유와<br>체형에 맞는 감량법을 찾아드려요.
+								</p>
+							  </div>
+							
+					  <section id="clients" class="wow fadeInUp"><br>
+					  <!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
+						<div class="container">
+						<hr style="background-color:#fff;width:90%;margin-bottom:30px">
+				  
+							  <div class="owl-carousel clients-carousel">
+  
+  
+						  <!-- flat slide -->
+						  <!--	<div>  
+									  
+										  
+											  <div class="row ">
+												  <div class="col-lg-4 col-4 text-center">
+												  <center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
+												  </div>
+									  
+												  <div class="col-lg-8 col-8 text-center">
+												  
+												  <p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
+												  </div>
+		  
+											  </div>
+									  </div> -->
+  
+						  <!-- end flat slide -->		
+  
+  
+
+  
+									  <div>  
+									  <p class="txt-tip">요요 걱정 줄이고</p>	
+										  
+									  </div>
+									  
+									  <div>  
+									  <p class="txt-tip">정체기 극복은 쉽게</p>	
+										  
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">유지어터가 되도록</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">작심삼일 X</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">어머님도 쉽게</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">갱년기 시기에도 OK</p>	
+									  </div>
+
+									  <div>  
+									  <p class="txt-tip">식단 조절을 편하게</p>	
+									  </div>
+								  
+							  </div>
+							  <hr style="background-color:#fff;width:90%;margin-bottom:30px">
+						</div>
+	  
+					  </section>
+
+					  <!-- chat -->
+					  <center> <div class=" alert_msg">
+					   <div class="col-2  pad0" style="float:left;margin-right:30px">
+					   <center><img class="chat_img " src="./guide.png" ></center>
+					   </div>
+  
+					   <div class="col-12 col50 text-center pad-msg" >
+					   
+					   <span class="tip-text">여러분의 체형에 맞게<br>올바른 감량을 도와드립니다.</span><br><br>	
+					   </div>
+  
+						   </div> </center><br>
+  
+				   <!-- end chat -->
+		  
+		  
+				  
+				
+				   <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="무료 체형 분석" style="text-align:center;" >
+					<label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >무료 체형 분석</span></label>
+					
+					<br>
+					<input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
+					<label class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree11">개인정보동의</label>
+					
+				  
+	
+				  <span class="privacyBtn" onclick="privacyPopUp()">
+					[자세히보기]
+				  </span>
+				  <br>
+				  <span class="alert"  id="alert_41">　</span>
+					</center>
+																<!--원하는 영역을 가도록 수정법= 'onclick = jump_quest(원하는 영역 번호)'를 작성-->
+																<!--버튼 글자 수정 = '시작하기 >>' 부분을 원하는대로 수정해주시면 됩니다.-->
+						  </section>
 
 
 								  
-								  <section id="clients" class="wow fadeInUp"><br>
-								<!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
-								  <div class="container">
-								  <hr style="background-color:#fff;width:90%;margin-bottom:30px">
-							
-										<div class="owl-carousel clients-carousel">
-			
-			
-									<!-- flat slide -->
-									<!--	<div>  
-												
-													
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-															<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
-															</div>
-												
-															<div class="col-lg-8 col-8 text-center">
-															
-															<p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
-															</div>
-					
-														</div>
-												</div> -->
-			
-									<!-- end flat slide -->		
-			
-			
+								
 
-			
-												<div>  
-												<p class="txt-tip">요요 걱정 줄이고</p>	
-													
-												</div>
-												
-												<div>  
-												<p class="txt-tip">정체기 극복은 쉽게</p>	
-													
-												</div>
-
-												<div>  
-												<p class="txt-tip">유지어터가 되도록</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">작심삼일 X</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">어머님도 쉽게</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">갱년기 시기에도 OK</p>	
-												</div>
-
-												<div>  
-												<p class="txt-tip">식단 조절을 편하게</p>	
-												</div>
-											
-										</div>
-										<hr style="background-color:#fff;width:90%;margin-bottom:30px">
-								  </div>
-				
-								</section>
-
-								<center><h1 style="line-height:1.0;padding-bottom:0px;"><span class="questm ft-white ">"왜 나는 자꾸만 포기하게 될까?"<br>스스로 궁금한 적 있지 않았나요?<br><br>어떤 사람들은 꾸준히 감량하고<br>예뻐져서 부러움을 한껏 받는데<br>왜 나는 그러지 못하고 찌고만 있는지?<br><br>모든 현상에는 반드시 이유가 있습니다.</span></h1></center><br>
+						
 
 								<!-- <div class="col-lg-12 col-md-12 wow fadeInUp">
 			   <div class="member">
@@ -189,41 +315,7 @@ testbody.innerHTML =`
 					
 			
 			
-								<!-- chat -->
-								<center> <div class=" alert_msg">
-								 <div class="col-2  pad0" style="float:left;margin-right:30px">
-								 <center><img class="chat_img " src="./guide.png" ></center>
-								 </div>
-			
-								 <div class="col-12 col50 text-center pad-msg" >
-								 
-								 <span class="tip-text">여러분의 체형에 맞게<br>올바른 감량을 도와드립니다.</span><br><br>	
-								 </div>
-			
-									 </div> </center><br>
-			
-							 <!-- end chat -->
-					
-					
-							
-						  
-							 <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="시작하기" style="text-align:center;" >
-							  <label class="label_button1" id="start0" for="quest00_1" onclick="go_sub()"><span style="font-size: 16px;"></span><span >시작하기</span></label>
-							  
-							  <br>
-							  <input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
-							  <label class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree11">개인정보동의</label>
-							  
-							
-			  
-							<span class="privacyBtn" onclick="privacyPopUp()">
-							  [자세히보기]
-							</span>
-							<br>
-							<span class="alert"  id="alert_41">　</span>
-							  </center>
-																		  <!--원하는 영역을 가도록 수정법= 'onclick = jump_quest(원하는 영역 번호)'를 작성-->
-																		  <!--버튼 글자 수정 = '시작하기 >>' 부분을 원하는대로 수정해주시면 됩니다.-->
+
 							  </div>
 							  </section>
 
@@ -754,6 +846,7 @@ testbody.innerHTML =`
 								</div>
 							  </div>
 							</div>
+							<br><br>
 						</footer>				
 								   
 			  
