@@ -148,7 +148,7 @@ h3{
 	padding-bottom:40px;
 	text-align:center;
   font-family: 'RIDIBatang';
-  line-height: 140%;
+  line-height: 160%;
 }
 
 
@@ -2470,35 +2470,8 @@ text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
 }
 }
 
-@media screen and (max-width: 430px) {
- 
-  .img-text{
-    font-size:14px;
-   
-  }
-
- 
-  .questm{
-    font-size:14px;
-    /* white-space: nowrap; */
-  }
-
-  .quests{
-    font-size:15px;
-    /* white-space: nowrap; */
-  }
-
-  .agree{
-    font-size:12px;
-  }
-
-}
 
 
-.item-thumbnail {
-}
-.no-img {
-  }
 
 .btn-for-guest {
   display: none; }
@@ -3803,11 +3776,6 @@ align-items: center;
 flex: 1;
 }
 
-@media screen and (max-width: 430px) {
-  h3{
-    font-size: 1.3em !important;
-  }
-}
 
 
 .stepper-item::before {
@@ -3955,5 +3923,32 @@ width:80%;
 
 .my-float{
 	margin-top:22px;
+}
+
+@media screen and (max-width: 430px) {
+ 
+  .img-text{
+    font-size:14px;
+   
+  }
+
+  h3{
+    font-size: 1.3em !important;
+  }
+ 
+  .questm{
+    font-size:16px;
+    /* white-space: nowrap; */
+  }
+
+  .quests{
+    font-size:15px;
+    /* white-space: nowrap; */
+  }
+
+  .agree{
+    font-size:12px;
+  }
+
 }
 
