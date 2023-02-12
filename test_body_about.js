@@ -54,7 +54,7 @@ testbody.innerHTML =`
 						  
 									  <div class="col-lg-6 col-md-6">
 										<div class="about-content">
-										  <h3>다이어트는 올바른 건강습관을<br>회복하면서 생기는 결과입니다.</h2>
+										  <h2>다이어트는 올바른 건강습관을<br>회복하면서 생기는 결과입니다.</h2>
 										 
 										  <!-- <ul>
 											<li>
