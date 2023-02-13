@@ -119,7 +119,6 @@ function ja_p() {
 	$('#vid').css({display:"none"});
 	$('#hvid').css({display:"none"});
 	$('#vtext').css({display:"none"});
-	clearInterval(wordflick);
 	$('.mn_ex,.total_menu').hide();
 	$('.mn_su').hide();
 
