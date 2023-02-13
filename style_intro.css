@@ -1334,7 +1334,7 @@ color: rgba(255, 255, 255, 0.898);
 
 .img-text{
   position: absolute;
-    top: 110%;
+    top: 15%;
     left: 50%;
     width: 100%;
     transform: translateX( -50%);
@@ -2386,7 +2386,7 @@ font-family: 'RIDIBATANG';
 	}
 
   .img-text{
-    top: 120% !important;
+    top: 20% !important;
     font-size: 14px !important;
   }
 

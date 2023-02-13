@@ -11,7 +11,7 @@ testbody.innerHTML =`
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
 							 					  
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3000px;max-height:3000px">
+								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3070px;max-height:3400px">
 							 
 								  
 								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
@@ -646,7 +646,7 @@ testbody.innerHTML =`
 									 <section  id="quest7_wrap" class="wow fadeIn backg container1" >
 									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:700px;max-height:900px">
 		
-									  <div class="wow fadeIn img-text ft-white" style="top:4% !important">
+									  <div class="wow fadeIn img-text ft-white" style="top:7% !important">
 											
 								  <center><h1><span class="questm ft-white">희망 감량 부위</span></h1></center><br>
 								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
