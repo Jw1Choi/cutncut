@@ -3,7 +3,7 @@ testbody.innerHTML =`
 <div id="wrap" >
 
 <video id="vid" playsinline loop="loop" 
-muted="muted"   class="br40" >
+muted="muted"  autoplay="autoplay"  class="br40" >
 <source id="hvid" src="./intro-video2.mp4" type="video/mp4" >
 </video>
 <div class="vtext">

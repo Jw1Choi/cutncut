@@ -1,12 +1,7 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrap" >
-<video id="vid" playsinline muted loop autoplay>
-<source id="hvid" src="https://www.harvard.edu/wp-content/uploads/2023/01/storm2.mp4" type="video/mp4" >
-</video>
-<div class="vtext">
-<p class="word"></p>
-</div>
+
 		<div id="container">
 
 		<main id="main">
@@ -17,16 +12,25 @@ testbody.innerHTML =`
 					<div class="wow fadeIn bbackg"> 
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
+				
+								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3900px;max-height:4000px">
 
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3000px;max-height:3000px">
-								 
+								  <video id="vid" playsinline muted loop autoplay>
+								  <source id="hvid" src="https://www.harvard.edu/wp-content/uploads/2023/01/storm2.mp4" type="video/mp4" >
+								  </video>
+								  <div class="vtext">
+								  <p class="word"></p>
+								  </div>
 								  
-								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
+								<div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
 							<section id="team" class="section-bg">
 
 							<div class="container">
 							
+			
 							  <div class="section-header" style="padding-left:15px">
+
+
 							  <h2 style="text-align:left" class="textleft">ABOUT US</h2> 
 							
 			
@@ -376,7 +380,7 @@ testbody.innerHTML =`
 						  
 							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
-							  <div class="wow fadeIn img-text ft-white">	
+							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 						  <!--질문 문구 부분 시작-->
 							  <center><h1><span class="questm ft-white">희망 목표 체중</span></h1></center>
 						 
@@ -417,7 +421,7 @@ testbody.innerHTML =`
 		
 								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
-								  <div class="wow fadeIn img-text ft-white">
+								  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
 									 <!-- <div class="menu1" style="text-align:left">
 									 <span class="menu_font" style="cursor:pointer;" onclick="jump_quest(0)">PREV</span>
 									 </div><br><br> -->
@@ -456,7 +460,7 @@ testbody.innerHTML =`
 							  
 								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 								 
-							  <div class="wow fadeIn img-text ft-white">	
+							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 		
 								  
 									  <center><h1><span class="questm ft-white">현재 체중</span></h1></center>
@@ -503,7 +507,7 @@ testbody.innerHTML =`
 											 </div></center><br> -->
 											 <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 											 
-											 <div class="wow fadeIn img-text ft-white">	
+											 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 											 <!--질문 문구 부분 시작-->
 											 <center><h1><span class="questm ft-white">신장</span></h1></center>
 											 
@@ -540,7 +544,7 @@ testbody.innerHTML =`
 						 <section  id="quest4_wrap" class="wow fadeIn backg container1" >	
 						  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						 
-						  <div class="wow fadeIn img-text ft-white">	
+						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">나이</span></h1></center>
 								  
 								 
@@ -578,7 +582,7 @@ testbody.innerHTML =`
 							  <section  id="quest5_wrap" class="wow fadeIn backg container1" >
 							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						  
-						  <div class="wow fadeIn img-text ft-white">	
+						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">성함</span></h1></center>
 								  
 								 
@@ -617,7 +621,7 @@ testbody.innerHTML =`
 								  <section  id="quest6_wrap" class="wow fadeIn backg container1" >
 									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 									 
-									  <div class="wow fadeIn img-text ft-white">	
+									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 										  <center><h1><span class="questm ft-white">휴대폰 번호</span></h1></center>
 											  
 											 
@@ -656,7 +660,7 @@ testbody.innerHTML =`
 									 <section  id="quest7_wrap" class="wow fadeIn backg container1" >
 									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:700px;max-height:900px">
 		
-									  <div class="wow fadeIn img-text ft-white" style="top:4% !important">
+									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
 											
 								  <center><h1><span class="questm ft-white">희망 감량 부위</span></h1></center><br>
 								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
@@ -708,7 +712,7 @@ testbody.innerHTML =`
 						  
 						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:650px;max-height:750px">
    
-						 <div class="wow fadeIn img-text ft-white">	
+						 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 				
 						 <center><h1><span class="questm ft-white">신청이 완료 되었습니다.</span></h1></center>
 
