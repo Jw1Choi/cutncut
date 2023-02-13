@@ -25,7 +25,7 @@ testbody.innerHTML =`
 							
 			
 							  <br><Br>
-								<h3 style="text-align:left" class="textleft">의지박약, 작심삼일을 반복하는 분도<br>감량을 지속적으로 올바르고 건강하게</h3>
+								<h3 style="text-align:left" class="textleft">다이어트를 할 때</h3>
 								<p style="text-align:left" class="textleft questm">
 								 굶거나 극단적으로 적게 먹는 감량법은<br>
 								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>

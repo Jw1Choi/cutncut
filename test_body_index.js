@@ -1,6 +1,13 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrap" >
+
+<video id="vid" muted autoplay loop  class="br40">
+<source id="hvid" src="./intro-video2.mp4" type="video/mp4" >
+</video>
+<div class="vtext">
+<p class="word"></p>
+</div>
 		<div id="container">
 		<main id="main">
 		
@@ -9,9 +16,9 @@ testbody.innerHTML =`
 			  <form action="" id="form_e11" method="POST" target ="hidden_iframe11" onsubmit=" submitted=true;"> 
 					<div class="wow fadeIn bbackg"> 
 		
-							 <section  id="main_intro" class="backg" style="text-align: center;">
+							 <section  id="main_intro" class="backg" style="text-align: center;" >
 							 					  
-								<img src="./test-intro.jpg" class="bg-img br50" style="min-height:3000px;max-height:3000px">
+								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3000px;max-height:3000px">
 							 
 								  
 								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
@@ -19,13 +26,14 @@ testbody.innerHTML =`
 
 
 							<section id="team" class="section-bg">
+						
 							<div class="container">
 							  <div class="section-header" style="padding-left:15px">
-							  <h2 style="text-align:left" class="textleft">컷앤컷 핵심 프로그램</h2> 
+							  <h2 style="text-align:left" class="textleft">ABOUT US</h2> 
 							
 			
 							  <br><Br>
-								<h3 style="text-align:left" class="textleft">다이어트를 할 때</h3>
+								<h3 style="text-align:left" class="textleft">의지박약, 작심삼일을 반복하는 분도<br>감량을 지속적으로 올바르고 건강하게</h3>
 								<p style="text-align:left" class="textleft questm">
 								 굶거나 극단적으로 적게 먹는 감량법은<br>
 								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>
@@ -833,24 +841,24 @@ testbody.innerHTML =`
 							
 					 </section>
 							 
-					 <footer id="footer" class="section-bg">
-					 <div class="footer-top">
-					   <div class="container">
-						 <div class="row">
-							   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-							 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-							 <span>사업자번호: 641-86-00917</span><br>
-							 <span>광고사전심의필: 210610800</span><br>
-							 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
-				 
-						   </div>
-						 </div>
-					   </div>
-					   <br><br>
-				   </footer>				
-							  
-		 
-   <!-- // footer -->
+						 <footer id="footer" class="section-bg">
+						  <div class="footer-top">
+							<div class="container">
+							  <div class="row">
+									<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								  <span>사업자번호: 641-86-00917</span><br>
+								  <span>광고사전심의필: 210610800</span><br>
+								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					  
+								</div>
+							  </div>
+							</div>
+							<br><br>
+						</footer>				
+								   
+			  
+		<!-- // footer -->
 				  
 		  </div>
 		

@@ -1,6 +1,13 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrap" >
+
+<video id="vid" muted autoplay loop  class="br40">
+<source id="hvid" src="./intro-video2.mp4" type="video/mp4" >
+</video>
+<div class="vtext">
+<p class="word"></p>
+</div>
 		<div id="container">
 		<main id="main">
 		
@@ -19,6 +26,7 @@ testbody.innerHTML =`
 
 
 							<section id="team" class="section-bg">
+						
 							<div class="container">
 							  <div class="section-header" style="padding-left:15px">
 							  <h2 style="text-align:left" class="textleft">ABOUT US</h2> 
