@@ -3921,7 +3921,7 @@ width:80%;
 	position:fixed;
 	width:99%;
 	height:60px;
-	bottom:0px;
+	bottom:5px;
   left:0.5%;
   background: linear-gradient(31.37deg, #0f0f0f 10%, #5a5a5a 60.17%, #151414 93.23%) repeat;
 	animation: gradient 5s ease infinite;
@@ -4011,29 +4011,3 @@ width:80%;
 }
 
 
-.video-responsive {
-  /* padding-bottom: 56.25%; */
-  /* position: relative; */
-  width: 100%;
-  }
-  
-  .canvas,
-  .video {
-  height: 100%;
-  left: 0;
-  /* position: absolute; */
-  top: 0;
-  width: 100%;
-  background: #000;
-  z-index:3000000;
-  }
-  #over_video{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 12vw;
-  color: #FFF;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-
-  }
