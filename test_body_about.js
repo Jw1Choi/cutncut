@@ -1,7 +1,7 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrap" >
-<video id="vid" playsinline muted loop autoplay class="br40" >
+<video id="vid" playsinline muted loop autoplay>
 <source id="hvid" src="https://www.harvard.edu/wp-content/uploads/2023/01/storm2.mp4" type="video/mp4" >
 </video>
 <div class="vtext">
