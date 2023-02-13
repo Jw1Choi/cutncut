@@ -77,7 +77,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="./custom_t.js"></script>
 	<script src="./fast.js"></script>
-
+	<script src="./canvas-video-player.js"></script>
 		
 	<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/kas/static/kp.js"></script>
 	<script type="text/javascript">
@@ -125,7 +125,30 @@
 		</script> -->
 
 	
+		<script>
 	
+			var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
+			
+			if (isIOS) {
+		 
+				var canvasVideo = new CanvasVideoPlayer({
+					videoSelector: '.video',
+					canvasSelector: '.canvas',
+					timelineSelector: false,
+					autoplay: true,
+					makeLoop: true,
+					pauseOnClick: false,
+					audio: false
+				});
+				
+			}else {
+				
+				// Use HTML5 video
+				document.querySelectorAll('.canvas')[0].style.display = 'none';
+				
+			}	
+			
+			</script>
 	<script> document.getElementById('vid').play();</script>
 	<script src="./bootstrap.bundle.min.js"></script>
     <script src="./easing.min.js"></script>

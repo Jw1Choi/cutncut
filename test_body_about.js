@@ -14,10 +14,11 @@ testbody.innerHTML =`
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
 				
 								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3900px;max-height:4000px">
-
-								  <video id="vid" playsinline muted loop autoplay>
+								  <div class="video-responsive">
+								  <video id="vid" class="video" muted="muted" loop="loop" autoplay="autoplay">
 								  <source id="hvid" src="https://www.harvard.edu/wp-content/uploads/2023/01/storm2.mp4" type="video/mp4" >
 								  </video>
+								  <canvas class="canvas"></canvas>
 								  <div class="vtext">
 								  <p class="word"></p>
 								  </div>
