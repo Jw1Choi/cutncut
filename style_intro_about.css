@@ -2379,7 +2379,9 @@ font-family: 'RIDIBATANG';
 }
 
 @media screen and (min-width: 1268px) {
-	.bbackg{
+	
+  
+  .bbackg{
 	/* margin-left: 25%;
 		width:50%; */
 		
@@ -3978,11 +3980,37 @@ width:80%;
 
 }
 
+#intro_size{
+  min-height:3800px;
+  max-height:3900px;
+ 
+}
+
+
 @media screen and (max-width: 992px) {
  
+  #intro_size{
+    min-height:2730px;
+    max-height:3400px;
+
+  }
+
   .img-text{
+    top:15%;
     font-size:14px;
    
+  }
+
+  #vid{
+    display:none;
+  }
+
+  #hvid{
+    display:none;
+  }
+
+  .vtext{
+    display:none;
   }
 
   h3{

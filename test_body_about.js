@@ -13,16 +13,15 @@ testbody.innerHTML =`
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
 				
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3800px;max-height:4000px;z-index:-1">
-								  <div class="video-responsive">
+								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" id="intro_size">
+								 
 								  <video id="vid" class="video br40" muted="muted" loop="loop" autoplay="autoplay">
 								  <source id="hvid" src="./intro-video3.mp4" type="video/mp4" >
 								  </video>
-								  <canvas class="canvas"></canvas>
 								  <div class="vtext">
 								  <p class="word"></p>
 								  </div>
-								  </div>
+								  
 								<div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
 							<section id="team" class="section-bg">
 
@@ -293,6 +292,21 @@ testbody.innerHTML =`
 					</center>
 																<!--원하는 영역을 가도록 수정법= 'onclick = jump_quest(원하는 영역 번호)'를 작성-->
 																<!--버튼 글자 수정 = '시작하기 >>' 부분을 원하는대로 수정해주시면 됩니다.-->
+																<footer id="footer" class="section-bg">
+																<div class="footer-top">
+																  <div class="container">
+																	<div class="row">
+																		  <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+																		<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+																		<span>사업자번호: 641-86-00917</span><br>
+																		<span>광고사전심의필: 210610800</span><br>
+																		<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+															
+																	  </div>
+																	</div>
+																  </div>
+																  <br><br><br>
+															  </footer>	
 						  </section>
 
 
@@ -409,7 +423,21 @@ testbody.innerHTML =`
 							  <label class="label_button1 disabled" id="next_gw" for="quest0_1" style="text-align:Center;" onclick="go_weight()">다음</label></center>	
 							  </div>
 		
-				
+						 <footer id="footer" class="section-bg">
+						 <div class="footer-top">
+						   <div class="container">
+							 <div class="row">
+								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								 <span>사업자번호: 641-86-00917</span><br>
+								 <span>광고사전심의필: 210610800</span><br>
+								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					 
+							   </div>
+							 </div>
+						   </div>
+						   
+					   </footer>	
 								 
 						  </section>
 						  <!--질문0번 SECTION 끝 -->	   
@@ -451,7 +479,21 @@ testbody.innerHTML =`
 
 						  </div>
 					
-						 
+						  <footer id="footer" class="section-bg">
+						  <div class="footer-top">
+							<div class="container">
+							  <div class="row">
+									<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								  <span>사업자번호: 641-86-00917</span><br>
+								  <span>광고사전심의필: 210610800</span><br>
+								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					  
+								</div>
+							  </div>
+							</div>
+							
+						</footer>	
 							  </section>
 								 
 							  <!--질문2 SECTION 시작-->
@@ -491,7 +533,21 @@ testbody.innerHTML =`
 		<label class="label_button1 disabled" id="next_nw" for="quest2_1" style="text-align:Center;" onclick="go_height()">다음</label></center>	
 		</div>								   
 						 
+		<footer id="footer" class="section-bg">
+		<div class="footer-top">
+		  <div class="container">
+			<div class="row">
+				  <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+				<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+				<span>사업자번호: 641-86-00917</span><br>
+				<span>광고사전심의필: 210610800</span><br>
+				<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
 	
+			  </div>
+			</div>
+		  </div>
+		  
+	  </footer>	
 
 							  </section>	
 							  <!--질문2 SECTION 끝-->
@@ -537,7 +593,21 @@ testbody.innerHTML =`
 											 <label class="label_button1 disabled" id="next_height" for="quest3_1" style="text-align:Center;" onclick="go_age()">다음</label></center>	
 											 </div>
 										  
-									
+											 <footer id="footer" class="section-bg">
+						 <div class="footer-top">
+						   <div class="container">
+							 <div class="row">
+								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								 <span>사업자번호: 641-86-00917</span><br>
+								 <span>광고사전심의필: 210610800</span><br>
+								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					 
+							   </div>
+							 </div>
+						   </div>
+						   
+					   </footer>	
 										  
 									  </section>	
 						 
@@ -575,7 +645,21 @@ testbody.innerHTML =`
 										 </div>
 									  
 
-									
+										 <footer id="footer" class="section-bg">
+										 <div class="footer-top">
+										   <div class="container">
+											 <div class="row">
+												   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+												 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+												 <span>사업자번호: 641-86-00917</span><br>
+												 <span>광고사전심의필: 210610800</span><br>
+												 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+									 
+											   </div>
+											 </div>
+										   </div>
+										   
+									   </footer>	
 										 
 										</section>
 										
@@ -612,7 +696,21 @@ testbody.innerHTML =`
 										  <label class="label_button1 disabled" id="next_name" for="quest5_1" style="text-align:Center;" onclick="go_phone()">다음</label></center>	
 										  </div>
 										  
-
+										  <footer id="footer" class="section-bg">
+										  <div class="footer-top">
+											<div class="container">
+											  <div class="row">
+													<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+												  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+												  <span>사업자번호: 641-86-00917</span><br>
+												  <span>광고사전심의필: 210610800</span><br>
+												  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+									  
+												</div>
+											  </div>
+											</div>
+											
+										</footer>	
 								
 										 
 							  </section>
@@ -651,7 +749,21 @@ testbody.innerHTML =`
 													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">다음</label></center>	
 													 </div>
 
-
+													 <footer id="footer" class="section-bg">
+													 <div class="footer-top">
+													   <div class="container">
+														 <div class="row">
+															   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+															 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+															 <span>사업자번호: 641-86-00917</span><br>
+															 <span>광고사전심의필: 210610800</span><br>
+															 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+												 
+														   </div>
+														 </div>
+													   </div>
+													   
+												   </footer>	
 												  
 								  </section>	
 								 
@@ -691,7 +803,21 @@ testbody.innerHTML =`
 						   <!-- end chat -->
 						 
 						   </div>
-						
+						   <footer id="footer" class="section-bg">
+						   <div class="footer-top">
+							 <div class="container">
+							   <div class="row">
+									 <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								   <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								   <span>사업자번호: 641-86-00917</span><br>
+								   <span>광고사전심의필: 210610800</span><br>
+								   <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					   
+								 </div>
+							   </div>
+							 </div>
+							 
+						 </footer>	
 						   </section>	
 		
 													 
@@ -840,25 +966,25 @@ testbody.innerHTML =`
 					
 						 </div>
    
-				 
+						 <footer id="footer" class="section-bg">
+						 <div class="footer-top">
+						   <div class="container">
+							 <div class="row">
+								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								 <span>사업자번호: 641-86-00917</span><br>
+								 <span>광고사전심의필: 210610800</span><br>
+								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					 
+							   </div>
+							 </div>
+						   </div>
+						   
+					   </footer>				
 							
 					 </section>
 							 
-						 <footer id="footer" class="section-bg">
-						  <div class="footer-top">
-							<div class="container">
-							  <div class="row">
-									<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								  <span>사업자번호: 641-86-00917</span><br>
-								  <span>광고사전심의필: 210610800</span><br>
-								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
-					  
-								</div>
-							  </div>
-							</div>
-							<br><br>
-						</footer>				
+						
 								   
 			  
 		<!-- // footer -->
