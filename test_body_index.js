@@ -2,7 +2,7 @@ const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrap" >
 
-<video id="vid" muted autoplay loop playsinline class="br40">
+<video id="vid" muted loop playsinline class="br40">
 <source id="hvid" src="./intro-video2.mp4" type="video/mp4" >
 </video>
 <div class="vtext">
