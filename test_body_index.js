@@ -3,7 +3,7 @@ testbody.innerHTML =`
 <div id="wrap" >
 
 <video id="vid" muted autoplay loop  class="br40">
-<source id="hvid" src="./intro-video2.mp4" type="video/mp4" >
+<source id="hvid" src="https://firebasestorage.googleapis.com/v0/b/css-java-168f0.appspot.com/o/intro-video2.mp4?alt=media&token=371da673-6b49-42ab-8b3e-4c6743b7aad3" type="video/mp4" >
 </video>
 <div class="vtext">
 <p class="word"></p>
