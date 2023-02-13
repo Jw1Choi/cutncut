@@ -1173,7 +1173,9 @@ html, body {
   position: relative;
 
   -webkit-text-size-adjust: 100%;
-  color: #333; }
+  color: #333; 
+  background:#000;
+}
 
 html {
   box-sizing: border-box; }
