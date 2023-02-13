@@ -1,33 +1,31 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrap" >
-
-<video id="vid" playsinline muted loop  class="br40">
-<source id="hvid" src="./intro-video2.mp4" type="video/mp4" >
+<video id="vid" playsinline muted loop autoplay class="br40" >
+<source id="hvid" src="https://www.harvard.edu/wp-content/uploads/2023/01/storm2.mp4" type="video/mp4" >
 </video>
 <div class="vtext">
 <p class="word"></p>
 </div>
 		<div id="container">
+
 		<main id="main">
-		
+
 		
 		  <div class="area_category">
 			  <form action="" id="form_e11" method="POST" target ="hidden_iframe11" onsubmit=" submitted=true;"> 
 					<div class="wow fadeIn bbackg"> 
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
-							 					  
+
 								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3000px;max-height:3000px">
-							 
+								 
 								  
 								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-
-
-
 							<section id="team" class="section-bg">
-						
+
 							<div class="container">
+							
 							  <div class="section-header" style="padding-left:15px">
 							  <h2 style="text-align:left" class="textleft">ABOUT US</h2> 
 							
