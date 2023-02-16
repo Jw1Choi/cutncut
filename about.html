@@ -61,6 +61,7 @@
 	<link rel="stylesheet" href="./animate.css">
 	
 <!-- Resource style -->
+
 		<link href="./bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="./iconn.css" />
   <link rel="stylesheet" href="./style_intro_about.css" />
@@ -124,31 +125,7 @@
 		
 		</script> -->
 
-		<script src="./canvas-video-player.js"></script>
-		<script>
 	
-			var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
-			
-			if (isIOS) {
-		 
-				var canvasVideo = new CanvasVideoPlayer({
-					videoSelector: '.video',
-					canvasSelector: '.canvas',
-					timelineSelector: false,
-					autoplay: true,
-					makeLoop: true,
-					pauseOnClick: false,
-					audio: false
-				});
-				
-			}else {
-				
-				// Use HTML5 video
-				document.querySelectorAll('.canvas')[0].style.display = 'none';
-				
-			}	
-			
-			</script>
 	<script> document.getElementById('vid').play();</script>
 	<script src="./bootstrap.bundle.min.js"></script>
     <script src="./easing.min.js"></script>
@@ -167,6 +144,7 @@
 	<script src="./scfm_intro.js"></script>
 	<script src="./slick_intro.js"></script>
 	<script src="./main2.js"></script>
+	<script src="https://player.vimeo.com/api/player.js"></script>
 
 
 	<script type="text/javascript">var submitted=false;</script>
