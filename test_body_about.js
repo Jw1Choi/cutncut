@@ -851,7 +851,7 @@ testbody.innerHTML =`
 
 						 <section  id="quest100_wrap" class="wow fadeIn backg container1" >
 						  
-						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:650px;max-height:750px">
+						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:950px;max-height:1050px">
    
 						 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 				
