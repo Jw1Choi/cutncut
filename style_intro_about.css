@@ -3723,6 +3723,13 @@ input[id="agree11"] {
   background-color: transparent;
 }
 
+input[id="agree12"] {
+  position: relative;
+  top: 3.5px;
+  accent-color: black;
+  background-color: transparent;
+}
+
 
 /* 개인정보처리방침 CSS */
  .privacyBtn {

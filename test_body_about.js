@@ -15,11 +15,12 @@ testbody.innerHTML =`
 				
 								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" id="intro_size">
 								 
+							
 								  <video id="vid" class="video br40" muted="muted" loop="loop" autoplay="autoplay">
-								  <source id="hvid" src="./intro-video3.mp4" type="video/mp4" >
+								  <source id="hvid" src="./intro-video3.mp4" type="video/mp4">
 								  </video>
 								  <div class="vtext">
-								  <p class="word"></p>
+								  <p class="word">나에게 쉬운 건강한 습관</p>
 								  </div>
 								  
 								<div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
@@ -412,7 +413,7 @@ testbody.innerHTML =`
 				  
 						   <div class="col-12 text-center chat-gap" >
 						   
-						   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+						   <span class="tip-text ">여러분의 희망 목표에 따라<br>감량 분석을 진행해드립니다.</span><br><br>	
 						   </div>
 				  
 							   </div> </center><br>
@@ -469,7 +470,7 @@ testbody.innerHTML =`
 		  
 							   <div class="col-12 text-center chat-gap" >
 							   
-							   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+							   <span class="tip-text ">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 							   </div>
 		  
 								   </div> </center><br>
@@ -522,7 +523,7 @@ testbody.innerHTML =`
 
 		 <div class="col-12 text-center chat-gap" >
 		 
-		 <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+		 <span class="tip-text ">현재 체형을 통해<br>목표 감량 분석을 도와드립니다.</span><br><br>	
 		 </div>
 
 			 </div> </center><br>
@@ -582,7 +583,7 @@ testbody.innerHTML =`
 						 
 											  <div class="col-12 text-center chat-gap" >
 											  
-											  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+											  <span class="tip-text ">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 											  </div>
 						 
 												  </div> </center><br>
@@ -633,7 +634,7 @@ testbody.innerHTML =`
 					 
 										  <div class="col-12 text-center chat-gap" >
 										  
-										  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+										  <span class="tip-text ">여러분의 연령에 맞게<br>달라지는 체질을 분석합니다.</span><br><br>	
 										  </div>
 					 
 											  </div> </center><br>
@@ -685,7 +686,7 @@ testbody.innerHTML =`
 					  
 										   <div class="col-12 text-center chat-gap" >
 										   
-										   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+										   <span class="tip-text ">무료 상담만으로도 도움될 수 있게<br>친절히 안내드리겠습니다.</span><br><br>	
 										   </div>
 					  
 											   </div> </center><br>
@@ -737,7 +738,7 @@ testbody.innerHTML =`
 								 
 													  <div class="col-12 text-center chat-gap" >
 													  
-													  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+													  <span class="tip-text ">무료 상담만으로도 도움될 수 있게<br>친절히 안내드리겠습니다.</span><br><br>	
 													  </div>
 								 
 														  </div> </center><br>
@@ -745,8 +746,21 @@ testbody.innerHTML =`
 												  <!-- end chat -->
 
 
-													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="다음" style="text-align:center;display: none;" >
-													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">다음</label></center>	
+													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="무료 상담 받기" style="text-align:center;display: none;" >
+													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">무료 상담 받기</label></center>	
+
+													 <br>
+													 <input class="agree" type="checkbox" name="agree11" id="agree12" value="개인정보동의" checked style="font-size:12px !important">
+													 <label id="end0" class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree12" >개인정보동의</label>
+													 
+												   
+									 
+												   <span class="privacyBtn" onclick="privacyPopUp()">
+													 [자세히보기]
+												   </span>
+												   <br>
+												  
+
 													 </div>
 
 													 <footer id="footer" class="section-bg">
@@ -795,7 +809,7 @@ testbody.innerHTML =`
 		  
 							   <div class="col-12 text-center chat-gap" >
 							   
-							   <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+							   <span class="tip-text">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 							   </div>
 		  
 								   </div> </center><br>
@@ -828,7 +842,7 @@ testbody.innerHTML =`
 						 <center><div class="box_wrap">
 										 <br /><div id="box" style="margin-left:0px;margin-top:50px"></div>
 									 </div></center><br>
-									 <center><div class="wait_text">결과 분석 중입니다...</div>
+									 <center><div class="wait_text">잠시만 기다려 주세요...</div>
 									 
 											  
 						 
@@ -841,113 +855,9 @@ testbody.innerHTML =`
    
 						 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 				
-						 <center><h1><span class="questm ft-white">신청이 완료 되었습니다.</span></h1></center>
+						 <center><h1><span class="questm ft-white">컷앤컷 다이어트<br>무료 체형 분석<br>상담 신청이 완료 되었습니다.<br><br>실질적인 도움과 안내를 위하여<br>전화를 통해 안내를 드리고 있습니다.<br><br>다만 부재시 감량을 도와드리지 못하니<br>꼭 전화를 받아주세요.<br><br>오로지 여러분의 건강한 감량만을 생각합니다.<br>-컷앤컷 다이어트-</span></h1></center>
 
-						 <section id="clients" class="wow fadeInUp"><br><br>
-								<!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
-								  <div class="container">
-			
-							
-										<div class="owl-carousel clients-carousel">
-			
-			
-									<!-- flat slide -->
-									<!--	<div>  
-												
-													
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-															<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
-															</div>
-												
-															<div class="col-lg-8 col-8 text-center">
-															
-															<p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
-															</div>
-					
-														</div>
-												</div> -->
-			
-									<!-- end flat slide -->		
-			
-			
-												<!-- <div>  
-												<p class="txt-tip">1) 살이 점점 안빠지고<br>체중이 늘기만 하는 이유?</p>	
-													<center><img class="img_slide" src="img/ft.jpg" alt="" ></center>
-													<p class="txt-tip">체지방을 없애고 근육을 만드는 핵심인<br>성장호르몬이 20대 이후 감소하면서<br>나잇살이 생기고 안빠지는 체질이 됩니다.<br>[출처: 서울대학교 병원]</p>	
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-															<p class="txt-tip">체지방 분해<br>근육을 만드는<br>성장호르몬의 감소<br></p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<p class="txt-tip"></p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
-															<p class="txt-tip">체지방 </p>
-															</div>
-												
-													
-														</div>
-												</div> -->
-			
-												<!-- <div>  
-												<p class="txt-tip">2) 성장호르몬 분비를 다시 촉진시켜<br>감량에 도움되게 하는 가장 좋은 방법은 수면입니다.</p>	
-													<center><img class="img_slide" src="img/sleep.jpg" alt="" ></center><br>
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-														
-															<p class="txt-tip">1. 좋은 수면<br>(하루 성장호르몬의 60~70% 분비)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-														
-															<p class="txt-tip">2. 규칙적 운동<br>(운동시 분비 촉진)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<p class="txt-tip">3. 균형잡힌 식단<br>(혈당 낮을 때 분비)</p>
-															</div>
-												
-													
-														</div>
-												</div> -->
-			
-												<div>  
-												<p class="txt-tip">3) 수면의 장점을 활용해<br>올바른 감량을 진행할 수 있다면?</p>	
-												<center><img class="img_slide" src="./cutncut-intro.png" alt="" ></center><br><br>
-														<p class="txt-tip">SLEEP & DIET 수면 프로그램은<br>이 질문에 대한 긴 고민과 연구 끝에 태어났습니다.</p>	
-												</div>
-			
-												<!-- <div>
-												<p class="txt-tip"></p><br> 	
-													<center><img class="img_slide" src="img/cutncut-intro.png" alt="" ></center><br>
-														<div class="row ">
-															<div class="col-lg-4 col-4 text-center">
-															<span >500</span><span class="txt-tip">mg</span>
-															<p class="txt-tip">감태추출물<br>(수면 개선에 도움 줄 수 있음)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<span>500</span><span class="txt-tip">mg</span>
-															<p class="txt-tip">콜레우스포스콜리추출물<br>(체지방 감소 도움 줄 수 있음)</p>
-															</div>
-												
-															<div class="col-lg-4 col-4 text-center">
-															<center><img src="./gmp-ffood.png" class="gmp" style="padding:0 0"></center>
-															<p class="txt-tip">식약처 기능성 인증</p>
-															</div>
-												
-													
-														</div>
-												</div> -->
-										</div>
-										<hr style="background-color:#fff;width:90%;margin-bottom:30px">
-								  </div>
-				
-								</section>
+						
 
 								<!-- chat -->
 								<center> <div class=" alert_msg">
@@ -957,7 +867,7 @@ testbody.innerHTML =`
 			
 								 <div class="col-12 col50 text-center pad-msg" >
 								 
-								 <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+								 <span class="tip-text">여러분의 체형에 맞게<br>건강한 감량 분석을 약속드립니다.</span><br><br>	
 								 </div>
 			
 									 </div> </center><br>
