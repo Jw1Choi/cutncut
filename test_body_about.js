@@ -855,24 +855,11 @@ testbody.innerHTML =`
    
 						 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 				
-						 <center><h1><span class="questm ft-white">컷앤컷 다이어트<br>무료 체형 분석<br>상담 신청이 완료 되었습니다.<br><br>실질적인 도움과 안내를 위하여<br>전화를 통해 안내를 드리고 있습니다.<br><br>다만 부재시 감량을 도와드리지 못하니<br>꼭 전화를 받아주세요.<br><br>오로지 여러분의 건강한 감량만을 생각합니다.<br>-컷앤컷 다이어트-</span></h1></center>
+						 <center><h1><span class="questm ft-white">컷앤컷 다이어트<br>무료 체형 분석<br>상담 신청이 완료 되었습니다.<br><br>실질적인 도움과 안내를 위하여<br>전화를 통해 안내를 드리고 있습니다.<br>다만 부재시 감량을 도와드리지 못하니<br>꼭 전화를 받아주세요.<br><br>오로지 여러분의 건강한 감량만을 생각합니다.<br>-컷앤컷 다이어트-</span></h1></center>
 
 						
 
-								<!-- chat -->
-								<center> <div class=" alert_msg">
-								 <div class="col-2  pad0" style="float:left;margin-right:30px">
-								 <center><img class="chat_img " src="./guide.png" ></center>
-								 </div>
-			
-								 <div class="col-12 col50 text-center pad-msg" >
-								 
-								 <span class="tip-text">여러분의 체형에 맞게<br>건강한 감량 분석을 약속드립니다.</span><br><br>	
-								 </div>
-			
-									 </div> </center><br>
-			
-							 <!-- end chat -->
+							
 					
 						 </div>
    
