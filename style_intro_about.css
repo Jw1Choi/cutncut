@@ -3949,12 +3949,14 @@ width:80%;
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
+  z-index:1000000;
 }
 .vtext p {
   font-family: 'RIDIBatang';
   text-align: center;
   font-size: 32px;
   color: #ffffff;
+
 }
 
 #vid{
@@ -3970,6 +3972,7 @@ width:80%;
   min-height:900px;
   object-fit: cover;
   overflow:hidden;
+  z-index:0;
 }
 
 .word {
