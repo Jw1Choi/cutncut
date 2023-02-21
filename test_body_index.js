@@ -1,27 +1,37 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrap" >
+
 		<div id="container">
+
 		<main id="main">
-		
+
 		
 		  <div class="area_category">
 			  <form action="" id="form_e11" method="POST" target ="hidden_iframe11" onsubmit=" submitted=true;"> 
 					<div class="wow fadeIn bbackg"> 
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
-							 					  
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:3070px;max-height:3400px">
-							 
+				
+								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" id="intro_size">
+								 
+							
+								 <!-- <video id="vid" class="video br40" muted="muted" loop="loop" autoplay="autoplay">
+								  <source id="hvid" src="./intro-video3.mp4" type="video/mp4">
+								  </video>
+								  <div class="vtext">
+								  <p class="word">나에게 쉬운 건강한 습관</p>
+								  </div> -->
 								  
-								  <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-
-
-
+								<div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
 							<section id="team" class="section-bg">
-						
+
 							<div class="container">
+							
+			
 							  <div class="section-header" style="padding-left:15px">
+
+
 							  <h2 style="text-align:left" class="textleft">ABOUT US</h2> 
 							
 			
@@ -35,6 +45,11 @@ testbody.innerHTML =`
 					  <br>
 							
 						  </section>
+
+
+
+
+
 
 
 
@@ -278,6 +293,21 @@ testbody.innerHTML =`
 					</center>
 																<!--원하는 영역을 가도록 수정법= 'onclick = jump_quest(원하는 영역 번호)'를 작성-->
 																<!--버튼 글자 수정 = '시작하기 >>' 부분을 원하는대로 수정해주시면 됩니다.-->
+																<footer id="footer" class="section-bg">
+																<div class="footer-top">
+																  <div class="container">
+																	<div class="row">
+																		  <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+																		<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+																		<span>사업자번호: 641-86-00917</span><br>
+																		<span>광고사전심의필: 210610800</span><br>
+																		<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+															
+																	  </div>
+																	</div>
+																  </div>
+																  <br><br><br>
+															  </footer>	
 						  </section>
 
 
@@ -366,7 +396,7 @@ testbody.innerHTML =`
 						  
 							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
-							  <div class="wow fadeIn img-text ft-white">	
+							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 						  <!--질문 문구 부분 시작-->
 							  <center><h1><span class="questm ft-white">희망 목표 체중</span></h1></center>
 						 
@@ -383,7 +413,7 @@ testbody.innerHTML =`
 				  
 						   <div class="col-12 text-center chat-gap" >
 						   
-						   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+						   <span class="tip-text ">여러분의 희망 목표에 따라<br>감량 분석을 진행해드립니다.</span><br><br>	
 						   </div>
 				  
 							   </div> </center><br>
@@ -394,7 +424,21 @@ testbody.innerHTML =`
 							  <label class="label_button1 disabled" id="next_gw" for="quest0_1" style="text-align:Center;" onclick="go_weight()">다음</label></center>	
 							  </div>
 		
-				
+						 <footer id="footer" class="section-bg">
+						 <div class="footer-top">
+						   <div class="container">
+							 <div class="row">
+								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								 <span>사업자번호: 641-86-00917</span><br>
+								 <span>광고사전심의필: 210610800</span><br>
+								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					 
+							   </div>
+							 </div>
+						   </div>
+						   
+					   </footer>	
 								 
 						  </section>
 						  <!--질문0번 SECTION 끝 -->	   
@@ -407,7 +451,7 @@ testbody.innerHTML =`
 		
 								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
-								  <div class="wow fadeIn img-text ft-white">
+								  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
 									 <!-- <div class="menu1" style="text-align:left">
 									 <span class="menu_font" style="cursor:pointer;" onclick="jump_quest(0)">PREV</span>
 									 </div><br><br> -->
@@ -426,7 +470,7 @@ testbody.innerHTML =`
 		  
 							   <div class="col-12 text-center chat-gap" >
 							   
-							   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+							   <span class="tip-text ">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 							   </div>
 		  
 								   </div> </center><br>
@@ -436,7 +480,21 @@ testbody.innerHTML =`
 
 						  </div>
 					
-						 
+						  <footer id="footer" class="section-bg">
+						  <div class="footer-top">
+							<div class="container">
+							  <div class="row">
+									<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								  <span>사업자번호: 641-86-00917</span><br>
+								  <span>광고사전심의필: 210610800</span><br>
+								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					  
+								</div>
+							  </div>
+							</div>
+							
+						</footer>	
 							  </section>
 								 
 							  <!--질문2 SECTION 시작-->
@@ -446,7 +504,7 @@ testbody.innerHTML =`
 							  
 								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 								 
-							  <div class="wow fadeIn img-text ft-white">	
+							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 		
 								  
 									  <center><h1><span class="questm ft-white">현재 체중</span></h1></center>
@@ -465,7 +523,7 @@ testbody.innerHTML =`
 
 		 <div class="col-12 text-center chat-gap" >
 		 
-		 <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+		 <span class="tip-text ">현재 체형을 통해<br>목표 감량 분석을 도와드립니다.</span><br><br>	
 		 </div>
 
 			 </div> </center><br>
@@ -476,7 +534,21 @@ testbody.innerHTML =`
 		<label class="label_button1 disabled" id="next_nw" for="quest2_1" style="text-align:Center;" onclick="go_height()">다음</label></center>	
 		</div>								   
 						 
+		<footer id="footer" class="section-bg">
+		<div class="footer-top">
+		  <div class="container">
+			<div class="row">
+				  <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+				<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+				<span>사업자번호: 641-86-00917</span><br>
+				<span>광고사전심의필: 210610800</span><br>
+				<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
 	
+			  </div>
+			</div>
+		  </div>
+		  
+	  </footer>	
 
 							  </section>	
 							  <!--질문2 SECTION 끝-->
@@ -493,7 +565,7 @@ testbody.innerHTML =`
 											 </div></center><br> -->
 											 <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 											 
-											 <div class="wow fadeIn img-text ft-white">	
+											 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 											 <!--질문 문구 부분 시작-->
 											 <center><h1><span class="questm ft-white">신장</span></h1></center>
 											 
@@ -511,7 +583,7 @@ testbody.innerHTML =`
 						 
 											  <div class="col-12 text-center chat-gap" >
 											  
-											  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+											  <span class="tip-text ">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 											  </div>
 						 
 												  </div> </center><br>
@@ -522,7 +594,21 @@ testbody.innerHTML =`
 											 <label class="label_button1 disabled" id="next_height" for="quest3_1" style="text-align:Center;" onclick="go_age()">다음</label></center>	
 											 </div>
 										  
-									
+											 <footer id="footer" class="section-bg">
+						 <div class="footer-top">
+						   <div class="container">
+							 <div class="row">
+								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								 <span>사업자번호: 641-86-00917</span><br>
+								 <span>광고사전심의필: 210610800</span><br>
+								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					 
+							   </div>
+							 </div>
+						   </div>
+						   
+					   </footer>	
 										  
 									  </section>	
 						 
@@ -530,7 +616,7 @@ testbody.innerHTML =`
 						 <section  id="quest4_wrap" class="wow fadeIn backg container1" >	
 						  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						 
-						  <div class="wow fadeIn img-text ft-white">	
+						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">나이</span></h1></center>
 								  
 								 
@@ -548,7 +634,7 @@ testbody.innerHTML =`
 					 
 										  <div class="col-12 text-center chat-gap" >
 										  
-										  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+										  <span class="tip-text ">여러분의 연령에 맞게<br>달라지는 체질을 분석합니다.</span><br><br>	
 										  </div>
 					 
 											  </div> </center><br>
@@ -560,7 +646,21 @@ testbody.innerHTML =`
 										 </div>
 									  
 
-									
+										 <footer id="footer" class="section-bg">
+										 <div class="footer-top">
+										   <div class="container">
+											 <div class="row">
+												   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+												 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+												 <span>사업자번호: 641-86-00917</span><br>
+												 <span>광고사전심의필: 210610800</span><br>
+												 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+									 
+											   </div>
+											 </div>
+										   </div>
+										   
+									   </footer>	
 										 
 										</section>
 										
@@ -568,7 +668,7 @@ testbody.innerHTML =`
 							  <section  id="quest5_wrap" class="wow fadeIn backg container1" >
 							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						  
-						  <div class="wow fadeIn img-text ft-white">	
+						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">성함</span></h1></center>
 								  
 								 
@@ -586,7 +686,7 @@ testbody.innerHTML =`
 					  
 										   <div class="col-12 text-center chat-gap" >
 										   
-										   <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+										   <span class="tip-text ">무료 상담만으로도 도움될 수 있게<br>친절히 안내드리겠습니다.</span><br><br>	
 										   </div>
 					  
 											   </div> </center><br>
@@ -597,7 +697,21 @@ testbody.innerHTML =`
 										  <label class="label_button1 disabled" id="next_name" for="quest5_1" style="text-align:Center;" onclick="go_phone()">다음</label></center>	
 										  </div>
 										  
-
+										  <footer id="footer" class="section-bg">
+										  <div class="footer-top">
+											<div class="container">
+											  <div class="row">
+													<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+												  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+												  <span>사업자번호: 641-86-00917</span><br>
+												  <span>광고사전심의필: 210610800</span><br>
+												  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+									  
+												</div>
+											  </div>
+											</div>
+											
+										</footer>	
 								
 										 
 							  </section>
@@ -607,7 +721,7 @@ testbody.innerHTML =`
 								  <section  id="quest6_wrap" class="wow fadeIn backg container1" >
 									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 									 
-									  <div class="wow fadeIn img-text ft-white">	
+									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 										  <center><h1><span class="questm ft-white">휴대폰 번호</span></h1></center>
 											  
 											 
@@ -624,7 +738,7 @@ testbody.innerHTML =`
 								 
 													  <div class="col-12 text-center chat-gap" >
 													  
-													  <span class="tip-text ">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+													  <span class="tip-text ">무료 상담만으로도 도움될 수 있게<br>친절히 안내드리겠습니다.</span><br><br>	
 													  </div>
 								 
 														  </div> </center><br>
@@ -632,11 +746,38 @@ testbody.innerHTML =`
 												  <!-- end chat -->
 
 
-													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="다음" style="text-align:center;display: none;" >
-													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">다음</label></center>	
+													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="무료 상담 받기" style="text-align:center;display: none;" >
+													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="go_result()">무료 상담 받기</label></center>	
+
+													 <br>
+													 <input class="agree" type="checkbox" name="agree11" id="agree12" value="개인정보동의" checked style="font-size:12px !important">
+													 <label id="end0" class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree12" >개인정보동의</label>
+													 
+												   
+									 
+												   <span class="privacyBtn" onclick="privacyPopUp()">
+													 [자세히보기]
+												   </span>
+												   <br>
+												  
+
 													 </div>
 
-
+													 <footer id="footer" class="section-bg">
+													 <div class="footer-top">
+													   <div class="container">
+														 <div class="row">
+															   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+															 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+															 <span>사업자번호: 641-86-00917</span><br>
+															 <span>광고사전심의필: 210610800</span><br>
+															 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+												 
+														   </div>
+														 </div>
+													   </div>
+													   
+												   </footer>	
 												  
 								  </section>	
 								 
@@ -646,7 +787,7 @@ testbody.innerHTML =`
 									 <section  id="quest7_wrap" class="wow fadeIn backg container1" >
 									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:700px;max-height:900px">
 		
-									  <div class="wow fadeIn img-text ft-white" style="top:7% !important">
+									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
 											
 								  <center><h1><span class="questm ft-white">희망 감량 부위</span></h1></center><br>
 								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
@@ -668,7 +809,7 @@ testbody.innerHTML =`
 		  
 							   <div class="col-12 text-center chat-gap" >
 							   
-							   <span class="tip-text">여러분의 체형에 맞게 수면을 이용한<br>최대 감량치 분석을 도와드립니다.</span><br><br>	
+							   <span class="tip-text">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 							   </div>
 		  
 								   </div> </center><br>
@@ -676,7 +817,21 @@ testbody.innerHTML =`
 						   <!-- end chat -->
 						 
 						   </div>
-						
+						   <footer id="footer" class="section-bg">
+						   <div class="footer-top">
+							 <div class="container">
+							   <div class="row">
+									 <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								   <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								   <span>사업자번호: 641-86-00917</span><br>
+								   <span>광고사전심의필: 210610800</span><br>
+								   <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					   
+								 </div>
+							   </div>
+							 </div>
+							 
+						 </footer>	
 						   </section>	
 		
 													 
@@ -687,7 +842,7 @@ testbody.innerHTML =`
 						 <center><div class="box_wrap">
 										 <br /><div id="box" style="margin-left:0px;margin-top:50px"></div>
 									 </div></center><br>
-									 <center><div class="wait_text">결과 분석 중입니다...</div>
+									 <center><div class="wait_text">잠시만 기다려 주세요...</div>
 									 
 											  
 						 
@@ -696,50 +851,37 @@ testbody.innerHTML =`
 
 						 <section  id="quest100_wrap" class="wow fadeIn backg container1" >
 						  
-						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:650px;max-height:750px">
+						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:950px;max-height:1050px">
    
-						 <div class="wow fadeIn img-text ft-white">	
+						 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
 				
-						 <center><h1><span class="questm ft-white">신청이 완료 되었습니다.<br>전화를 통해 안내를 진행드리겠습니다.</span></h1></center>
+						 <center><h1 style="line-height:90%"><span class="questm ft-white">컷앤컷 다이어트<br>무료 체형 분석<br>상담 신청이 완료 되었습니다.<br><br>실질적인 도움과 안내를 위하여<br>전화를 통해 안내를 드리고 있습니다.<br>다만 부재시 감량을 도와드리지 못하니<br>꼭 전화를 받아주세요.<br><br>오로지 여러분의 건강한 감량만을 생각합니다.<br>-컷앤컷 다이어트-</span></h1></center>
 
 						
 
-								<!-- chat -->
-								<center> <div class=" alert_msg">
-								 <div class="col-2 pad0" style="float:left;margin-right:30px">
-								 <center><img class="chat_img" src="./guide.png" ></center>
-								 </div>
-			
-								 <div class="col-12 col50 text-center pad-msg" >
-								 
-								 <span class="tip-text">여러분의 감량에 도움이<br>될 것을 약속드리겠습니다.</span><br><br>	
-								 </div>
-			
-									 </div> </center><br>
-			
-							 <!-- end chat -->
+							
 					
 						 </div>
    
-				 
+						 <footer id="footer" class="section-bg">
+						 <div class="footer-top">
+						   <div class="container">
+							 <div class="row">
+								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
+								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
+								 <span>사업자번호: 641-86-00917</span><br>
+								 <span>광고사전심의필: 210610800</span><br>
+								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+					 
+							   </div>
+							 </div>
+						   </div>
+						   
+					   </footer>				
 							
 					 </section>
 							 
-						 <footer id="footer" class="section-bg">
-						  <div class="footer-top">
-							<div class="container">
-							  <div class="row">
-									<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								  <span>사업자번호: 641-86-00917</span><br>
-								  <span>광고사전심의필: 210610800</span><br>
-								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
-					  
-								</div>
-							  </div>
-							</div>
-							<br><br>
-						</footer>				
+						
 								   
 			  
 		<!-- // footer -->
