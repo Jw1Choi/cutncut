@@ -473,7 +473,7 @@ testbody.innerHTML =`
 									 
 									  <div class="col-8" >
 									  <h3 style="padding-bottom:15px">38세/직장인/김지*님</h3>
-									  <h4 style="font-size:17px;">이것저것 다 해봤는데 결국에는<br>건강하게 안빼면 소용이 없더라고요<br>건강하게 감량해도<br>즐겁다는 걸 이제 알았네요</h4>
+									  <h4 style="font-size:15px;">이것저것 다 해봤는데 결국에는<br>건강하게 안빼면 소용이 없더라고요<br>건강하게 감량해도<br>즐겁다는 걸 이제 알았네요</h4>
 									 
 										</div>
 									</div>
@@ -491,7 +491,7 @@ testbody.innerHTML =`
 									 
 									  <div class="col-8" >
 									  <h3 style="padding-bottom:15px">43세/주부/이수*님</h3>
-									  <h4 style="font-size:17px;"> 나잇살 때문에 자존감도 무너지고<br>거울 쳐다보기가 싫었는데<br>이젠 예쁜 옷 마음껏 입고 몸도 가벼워요</h4>
+									  <h4 style="font-size:15px;"> 나잇살 때문에 자존감도 무너지고<br>거울 쳐다보기가 싫었는데<br>이젠 예쁜 옷 마음껏 입고 몸도 가벼워요</h4>
 									 
 										</div>
 									</div>
@@ -509,7 +509,7 @@ testbody.innerHTML =`
 									 
 									  <div class="col-8" >
 									  <h3 style="padding-bottom:15px">53세/주부/박정*님</h3>
-									  <h4 style="font-size:17px;">갱년기 때문에 도저히 안빠지던 살이<br>정말 부담없이 자연스레 빠지면서<br>건강도 함께 좋아졌습니다<br>정말 감사합니다</h4>
+									  <h4 style="font-size:15px;">갱년기 때문에 도저히 안빠지던 살이<br>정말 부담없이 자연스레 빠지면서<br>건강도 함께 좋아졌습니다<br>정말 감사합니다</h4>
 									 
 										</div>
 									</div>

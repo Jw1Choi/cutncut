@@ -3986,8 +3986,8 @@ width:80%;
 
 .circle-kg{
   position:absolute;
-  top:20;
-  left:20;
+  top:0;
+  left:15px;
   border:2px solid #fff;
   background:black;
   border-radius:200%;
@@ -4001,11 +4001,12 @@ width:80%;
 }
 
 .vertical{
-  border-left: 2px solid white;
+  border-right: 2px solid white;
   height: 400px;
   position:relative;
-  left: 50%;
-  margin-top:10px
+  right: 50%;
+  margin-top:10px;
+
 }
 
 .counters{
