@@ -13,6 +13,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 
+.blink {
+  animation: blink-effect 2s step-end infinite;
+
+  /*
+  animation-name: blink-effect;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  animation-timing-function:step-end;
+  */
+}
+
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}
 
 .animated {
   -webkit-animation-duration: 1s;

@@ -97,6 +97,14 @@
       delay: 10,
       time: 1000
     });
+      
+      
+      // setInterval(function() {
+      //   $('[data-toggle="counter-up"]').counterUp({
+      //       delay: 10,
+      //       time: 1000
+      //   });
+      //   }, 5000);
   
     // Porfolio isotope and filter
     $(window).on('load', function () {
@@ -134,8 +142,10 @@
 			var scrT = $(window).scrollTop();
       
       // scrT == $(document).height() - $(window).height() 스크롤 바닥일 때 설정
-			if(scrT < 100){
+			if(scrT < 200){
 				$('header .top').css({background:"transparent"});
+        $('.float').css({transition:"1s"});
+        $('.float').css({display:"none"});
 				// $('header .top .menu-btn button').css({color:"#fff"});
 				$('#wrap').css({padding:"0px"});
 			} else {
@@ -143,10 +153,12 @@
 				$('header .top .menu-btn button').css({color:"#141414"});
 				$('header .top').css({background:"#fff"});
 				$('#wrap').css({padding:"64px 0"});
+        $('.float').css({transition:"1s"});
+        $('.float').css({display:"inline"});
 			}
 		  })
 
-      var words = ['다이어트는 의지 싸움이 아닙니다.','올바른 다이어트란','나에게 쉬운 건강한 습관을','꾸준히 지속하는 것입니다.','올바른 다이어트의 시작', 'CUT & CUT DIET'],
+      var words = ['다이어트는','의지 싸움이 아닙니다','올바른 다이어트란','나에게 쉬운 건강한 습관을','꾸준히 지속하는 것입니다.','다이어트도','속도보다 방향이 중요합니다','올바른 다이어트의 시작', 'CUT & CUT DIET'],
       part,
       i = 0,
       offset = 0,
@@ -154,7 +166,7 @@
       forwards = true,
       skip_count = 0,
       skip_delay = 15,
-      speed = 70;
+      speed = 60;
   var wordflick = function () {
     setInterval(function () {
       if (forwards) {

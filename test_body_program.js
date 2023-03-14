@@ -36,9 +36,10 @@ testbody.innerHTML =`
 							
 			
 							  <br><Br>
-								<h3 style="text-align:left" class="textleft">올바른 건강 습관으로 만드는 건강한 몸매</h3>
+								<h3 style="text-align:left" class="textleft">의지박약, 작심삼일을 반복하는 분도<br>감량을 지속적으로 올바르고 건강하게</h3>
 								<p style="text-align:left" class="textleft questm">
-								 컷앤컷 다이어트는 올바른 감량 습관을<br>여러분의 삶에 스며들도록<br>최적의 체형 맞춤 프로그램을 제공합니다.<br><br>삶의 건강한 변화가 필요하시다면<br>건강한 다이어트를 시작해보세요.
+								 굶거나 극단적으로 적게 먹는 감량법은<br>
+								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>
 								</p>
 							  </div>
 					  <br>

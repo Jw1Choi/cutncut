@@ -10,16 +10,17 @@
 	})(window,document,'script','dataLayer','GTM-TD6WLPK');</script>
 	<!-- End Google Tag Manager -->
 
-	<script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-			h._hjSettings={hjid:3357037,hjsv:6};
-			a=o.getElementsByTagName('head')[0];
-			r=o.createElement('script');r.async=1;
-			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
+<!-- Hotjar Tracking Code for my site -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3357037,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DFQDBP1R6L"></script>
@@ -42,7 +43,7 @@
   gtag('config', 'AW-11061217748');
 </script>
 
-  <title>DIET CONSULTING</title>
+  <title>나잇살 4주만에 -12kg 감량 컷앤컷 다이어트</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
@@ -60,9 +61,10 @@
 	<link rel="stylesheet" href="./animate.css">
 	
 <!-- Resource style -->
+
 		<link href="./bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="./iconn.css" />
-  <link rel="stylesheet" href="./style_intro_about.css" />
+  <link rel="stylesheet" href="./style_intro_main.css" />
   <link href="./ionicons.min.css" rel="stylesheet" />
   <link href="./owl.carousel.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="./menu.css" />
@@ -73,10 +75,11 @@
 	<script src="./nxt_dll.js"></script>
 	<script src="./pi_dll.js"></script>
 	<script src="./scfm_intro_code.js"></script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="./custom_t.js"></script>
 	<script src="./fast.js"></script>
-
+	
 		
 	<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/kas/static/kp.js"></script>
 	<script type="text/javascript">
@@ -87,13 +90,23 @@
 </head>
 
 <body>
+	<!-- <video id="vid" class="video br40 msize" autoplay muted playsinline loop style="z-index:1;">
+		<source id="hvid" src="./intro-video3.mp4" type="video/mp4">
+		</video>  -->
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TD6WLPK"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
 	<template id="headerTemplate"></template>
-
+	<div id="video">
+	<video id="vid" class="video br50 msize" autoplay muted playsinline loop style="z-index:998;">
+		<source id="hvid" src="./intro-video3.mp4" type="video/mp4">
+		</video> 
+		<div class="vtext">
+			<p class="word"></p>
+			</div>
+		</div>
 	<template id="test_body"></template>
 
 	<script type="text/javascript">
@@ -105,7 +118,7 @@
 		  }
 		})
 		
-		// 우측 클릭 방지
+
 		document.onmousedown=disableclick;
 		var status="오른쪽 버튼 클릭은 금지됩니다.";
 		
@@ -123,6 +136,9 @@
 		
 		</script>
 
+
+	
+	<script> document.getElementById('vid').play();</script>
 	<script src="./bootstrap.bundle.min.js"></script>
     <script src="./easing.min.js"></script>
 
@@ -135,11 +151,57 @@
     <script src="./lightbox.min.js"></script>
 
 	<script src="./menu_intro.js"></script>
-	<script src="./test_body_index.js"></script>
+	<script src="./test_body_main.js"></script>
 	<script src="./personal_f.js"></script>
 	<script src="./scfm_intro_about.js"></script>
 	<script src="./slick_intro.js"></script>
 	<script src="./main2.js"></script>
+
+	<script src="./ValidCheck.js"></script>
+	<script language="JavaScript" type="text/JavaScript">		   
+		var dbdb_submitted = false;
+		
+		function OnSubmit() {
+			if(dbdb_submitted == true) { return; }
+		
+			var f = document.inputForm;
+		
+			
+		
+			if ( VC_inValidText(f.name, "이름") ) return;
+		
+			if ( VC_isUnselectRadio(f.sex, "성별") ) return;
+			
+			if ( VC_inValidText(f.age, "나이") ) return;
+			if ( VC_inValidNumber(f.age, "나이") ) return;
+			
+			if ( VC_inValidText(f.item1, "키") ) return;
+			if ( VC_inValidNumber(f.item1, "키") ) return;
+			
+			if ( VC_inValidText(f.item2, "몸무게") ) return;
+			if ( VC_inValidNumber(f.item2, "몸무게") ) return;
+			
+			if ( VC_inValidText(f.tel1, "연락처") ) return;
+			if ( VC_inValidNumber(f.tel1, "연락처") ) return;
+			if ( VC_inValidText(f.tel2, "연락처") ) return;
+			if ( VC_inValidNumber(f.tel2, "연락처") ) return;
+			if ( VC_inValidText(f.tel3, "연락처") ) return;
+			if ( VC_inValidNumber(f.tel3, "연락처") ) return;
+		
+		
+				
+			if ( !f.agree.checked ) {
+				alert("개인정보 취급을 동의해 주세요!   ");
+				return;
+			}
+			
+			f.auto_defense.value = "identicharddeep!";
+		
+			dbdb_submitted = true;
+			f.submit();	
+		}
+		</script>
+	
 
 	<script type="text/javascript">var submitted=false;</script>
                     

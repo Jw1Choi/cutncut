@@ -116,6 +116,7 @@ function ja_p() {
     $('.float').css({color:"#1b1b1b"});
 	setTimeout(function() {
 	$('#floating_menu').hide();
+	$('#video').css({display:"none"});
 	$('#vid').css({display:"none"});
 	$('#hvid').css({display:"none"});
 	$('#vtext').css({display:"none"});

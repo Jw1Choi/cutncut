@@ -55,84 +55,45 @@ testbody.innerHTML =`
 					<div class="wow fadeIn bbackg"> 
 		
 							 <section  id="main_intro" class="backg" style="text-align: center;" >
-				
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" id="intro_size">
-								 
-								  <video id="vid" class="video br50 msize" autoplay muted playsinline loop style="z-index:1;">
-								  <source id="hvid" src="./intro-video3.mp4" type="video/mp4">
-								  </video> 
-							
-								  <div class="vtext">
-								  <p class="word">나에게 쉬운 건강한 습관</p>
-								  </div>
-								  
-								<div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-							<section id="team" class="section-bg">
+						
 
-							<div class="container">
-							
-			
-							  <div class="section-header" style="padding-left:15px">
+							 <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
+							 <section id="team" class="section-bg">
+ 
+							 <div class="container">
+							 
+			 
+							   <div class="section-header" style="padding-left:15px">
+								 <br><br>
+
+								 <h3 style="text-align:left" class="textleft wow fadeInUp">뭘 해도 도무지 안빠지나요?<br>나잇살이 계속 늘고만 있나요?<br>건강 때문에 이젠 꼭 빼야하나요?</h3>
+								 <p style="text-align:left;margin-bottom:30px" class="textleft questm wow fadeIn">
+								 만약 이 중에 하나라도 해당 된다면,<br>이제는 올바른 감량을 하지 않으면<br><b><u class="underline" 
+								 ">"귀중한 당신의 시간과 돈, 건강 모두를<br>잃기 쉽다는 사실 알고 계신가요?"</u></b></p>
 
 
-							  <h2 style="text-align:left" class="textleft wow fadeIn">ABOUT US</h2> 
-							
-			
-							  <br><Br>
-								<h3 style="text-align:left" class="textleft wow fadeIn">의지박약, 작심삼일을 반복하는 분도<br>감량을 지속적으로 올바르고 건강하게</h3>
-								<p style="text-align:left" class="textleft questm wow fadeIn">
-								 굶거나 극단적으로 적게 먹는 감량법은<br>
-								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>
-								</p>
-							  </div>
-					  <br>
-							
-						  </section>
-
-
-
-
-
-
-
-
-
-								  <section id="about">
+								 <section id="about" class="wow fadeIn" >
 								  <div class="container">
 									<div class="row">
-									  <div class="col-lg-6 col-md-6">
+									  <div class="col-lg-6 col-md-6" style="padding:0px 0px;">
 										<div class="about-img">
-										  <img src="./model.jpg" style="width:96%" alt="" />
+										  <img src="./weight.jpg" style="width:100%;" alt="" />
 										</div>
 									  </div>
 						  
-									  <div class="col-lg-6 col-md-6">
-										<div class="about-content wow fadeIn">
-										  <h3>꾸준히 관리 성공하면서<br>예쁜 옷 마음껏 입고 싶으신가요?</h3>
-										 
-										  <!-- <ul>
-											<li>
-											  <i class="ion-android-checkmark-circle"></i> 프로필
-											</li>
-											<li>
-											  <i class="ion-android-checkmark-circle"></i> Duis aute irure
-											  dolor in reprehenderit in voluptate velit.
-											</li>
-											<li>
-											  <i class="ion-android-checkmark-circle"></i> Ullamco laboris
-											  nisi ut aliquip ex ea commodo consequat. Duis aute irure
-											  dolor in reprehenderit in voluptate trideta storacalaperda
-											  mastiro dolore eu fugiat nulla pariatur.
-											</li>
-										  </ul> -->
+									  <div class="col-lg-6 col-md-6" >
+										<div class="about-content wow fadeIn" style="border:1px solid #c7b583;padding:0 10px 7px 0">
+										  <h3 style="margin-top:20px">잘못된 감량 방식을<br>지속하면 안되는 이유?</h3>
 						  
 										  <p class="questm wow fadeIn" >
-										  
-										  그렇다면 다이어트 관점부터 바꾸세요.<br>
-										  다이어트는 의지로 참고 견디는 것이 아니며<br>
-										  몸을 혹사시켜 빼는 것도 아닙니다.<br><br>
-										  올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활습관이 천천히<br>몸에 스며들게 되는 과정입니다.
-										  </p><br>
+										  굶거나 원푸드 등 잘못된 방식은<br>
+										  <b><u class="underline blink">체지방 조절 기능 & 근육 감소 유발</u></b><br> 
+										  <b>↓</b><br>
+										  10~20대는 몸이 버텨내지만<br>
+										  30대 이후 매년 근육 & 호르몬 감소로<br>
+										  점점 대사 기능과 회복이 떨어지면서<br>
+										  <b><u class="underline ">감량은 안되고 건강을 해치게 됨</u></b>
+										  </p>
 										
 										  
 										</div>
@@ -141,165 +102,450 @@ testbody.innerHTML =`
 								  </div>
 								</section>
 
+								<h3 style="text-align:left;margin-top:50px" class="textleft wow fadeInUp">그럼에도 불구하고<br>어떻게든 빠른 감량만 원하거나<br>굶거나 원푸드로 요요를 반복하는<br>감량 방식을 원하시는 분은<br><b>지금 바로 나가셔도 됩니다.</b></h3>
 
+					
+								 <h3 style="text-align:left;margin-top:30px" class="textleft wow fadeInUp">하지만!<br><br>나잇살 제대로 빼보고 싶다면?<br>즐겁게 감량 & 건강 관리하고 싶다면?<br>예쁜 옷을 맘껏 입어보고 싶다면?<br>관리 잘하는 예쁜 엄마가 되고 싶다면?<br></h3>
 
-								<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
-								<div class="container">
-								  <div class="section-header" style="padding-left:15px">
+								 <p align="left"><img src="./model.jpg" style="width:100%;max-width:500px">
+								 
+
+								 <h3 style="text-align:left;margin-top:30px" class="textleft wow fadeInUp">지금부터 끝까지 읽어보세요<br>"먹기만 해도 빠진다"<br>"숨만 쉬어도 빠진다"<br>그런 소리 일절하지 않습니다.</h3>
+							     
+								
+								 <p style="text-align:left;max-width:400px;" class="textleft questm wow fadeIn">
+								 잘못된 방식을 멈추고<br>건강한 감량을 시작하는데<br>큰 도움이 될 것입니다
+								  
+								 </p><br><br>
+							   </div>
+	 
+								<div class="vertical wow fadeInDown"></div>
+ 
+							   <section id="team" class="section-bg wow fadeIn" style="background:#000;width:100%;margin-top:30px">
+							   <div class="container">
+								 <div class="section-header" style="padding-left:15px">
+								  
+							   
+			   
+								 <br><br>
+
+								 <h3>건강한 감량은<br>살을 빼는 것이 아닙니다</h3>
+								   <p class="textleft questm">
+								   나잇살, 갱년기 상관없이<br>살이 자꾸 찐다는 것은<br>
+								   <u class="underline">건강 밸런스가 깨졌다는 의미입니다</u><br><br>     
+								   살을 빼는 것에만 집중하는 단기 감량은<br>건강 밸런스의 회복이 없다면<br>
+								   전혀 도움이 되지 않습니다
+
+								   </p><br>
+								 
+								
+								<h3 style="padding-bottom:20px">건강한 감량은<br>건강한 습관 회복을 통해<br>자연스레 빠지게 하는 것</h3>
+								<img src="./picture.png" style="width:100%;max-width:400px;padding-bottom:30px">
+								<p class="textleft questm">
+								   요요로 다시 돌아가고 싶지 않으시죠?<br>건강한 유지어터가 되고 싶으시죠?<br>무너진 자존감까지 함께 찾고 싶다면<br>건강한 습관을 회복하세요<br>
+								   </p><br>
+								   <h3>물론 압니다<br>올바른 다이어트는<br>쉽지 않다는 것을</h3>
+								   <p class="textleft questm">
+								   다이어트가 절실한 여러분이라면<br>
+								   분명히 TV, 유튜브, 책, 인터넷 등<br>수많은 매체에서 정보를 얻었을 겁니다.<br><br>하지만, 여러분이 찾은 좋은 방법은<br>얼마나 실천 가능하던가요?   
+								   </p><br>
+
+								   <img src="./omg.jpg" style="width:100%;max-width:500px;margin-bottom:40px;">
+								   <h3>아무리 좋은 방식이라도<br>할 수 없거나, 참기만 하는 건<br>결국 포기합니다</h3>
+								   <p class="textleft questm">
+								   참고 견디기만 하는 건 결국 폭발입니다<br>
+								   직장, 집안일, 육아 등<br>바쁘고 정신없는 여러분의 일상에서<br>편하게 적용되도록 하는 것이<br>올바른 감량 성공의 핵심입니다
+								   </p><br>
+								
+						 <br>
+						 <div class="vertical wow fadeInDown" style="height:200px;margin-bottom:40px"></div>
+						 <h3>어렵기만한 올바른 다이어트를<br>그저 부담없이 따라할 수 있게</h3>
+						 <p class="textleft questm">
+						 어렵고 힘들기만한 올바른 다이어트를<br>부담없이 쉽게 따라만 해도 되는<br>즐거운 다이어트로 바꾸는 것이<br>컷앤컷의 목적입니다  
+						 </p>
+						 <img src="./cutncut-intro.jpg" style="width:100%;max-width:500px;margin:30px 0 40px;">
+						 <h3>생활 속에서 스트레스 없이 시작하는<br>올바른 맞춤 다이어트</h3>
+						 <p class="textleft questm">
+						 올바른 감량을 지속하는데 가장 중요한 것은<br>여러분의 현재 생활 패턴 속에서<br>부담 없는 감량 방식을 찾는 것입니다.
+						 </p>
+						 </div>
+						 </div>
+							 </section>
+								
+							 <section id="why-us" class="wow fadeIn">
+							 <div class="container-fluid">
+							   <div class="section-header">
+							   <br><br>
+								
+							   </div>
+					 
+							   <div class="row">
+							   </div>
+							 </div>
+					 
+							 <div class="container" style="max-width:1200px;">
+							   <div class="row counters">
+
+							   
+								 <div class="col-12 col-md-4 mgb20 text-center">
+								 <span data-toggle="counter-up">98</span><span style="font-weight:bold">%</span>
+								 <p>감량 만족도</p>
+								 <img src="./bottom_laurel.png" style="width:100%;position:relative;margin: -67px 0 0 0;max-width:200px;min-width:110px">	
+								   </div>
 								   
-								
+
+								 <div class="col-12 col-md-4 mgb20 text-center">
+								   <span data-toggle="counter-up">100,000</span><span style="font-weight:bold">명</span>
+								   <p>누적상담</p>
+								   <img src="./bottom_laurel.png" style="width:100%;position:relative;margin: -67px 0 0 0;max-width:200px;min-width:110px">	
+								 </div>
+								 
+								 <div class="col-12 col-md-4 mgb20 text-center">
+								 <span data-toggle="counter-up">91</span><span style="font-weight:bold">%</span>
+								   <p>지속 만족도</p>
+								   <img src="./bottom_laurel.png" style="width:100%;position:relative;margin: -67px 0 0 0;max-width:200px;min-width:110px">	
+								 </div>
+							
+							 
+							   </div>
+							 </div>
+							 <div class="section-header">
+							
+						
+							 </div>
 				
-								  <br><br>
-									<h3>올바른 다이어트를 좀 더 쉽고 편하게</h3>
-									<p class="textleft questm">
-									다이어트의 시작은 무조건 쉬워야 합니다.<br>스트레스를 받지 않고 꾸준히 할 수 있는<br>자신만의 맞춤 방법을 찾아드립니다.
-									</p><br>
-								  </div>
-						  <br>
+						   </section>
+
+							 <section id="team" class="section-bg wow fadeIn" style="margin-top: 80px;">
+							 <div class="container">
+								<div class="section-header">
+								 <h3 style="text-align:center" class="textleft">당신에게 맞는<br>쉽고 올바른 감량 방식을 찾아주는<br> 컷앤컷 1:1 개인 맞춤 플랜</h3>
+								 <p class="textleft questm">
+								 고민없이 편하게 따라하세요<br>여러분의 생활습관 &  체형을 분석해<br>가장 알맞는 방식을 찾아드립니다</p>
+							   </div>
+					   
+							   <div class="row">
+							   <div class="col-lg-5 col-md-5 wow fadeInUp">
+								 <div class="member">
+								 <img src="./food.jpeg" class="img-fluid br50 imgt30" alt="" />
+								 
+							   
+								 <p class="img_text wow fadeInUp">1. 체형, 생활습관 분석</p>
+							   
+								 </div>
+							   </div>
+					 
+				   
+							   <div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+								 <div class="member">
+								 
+								   <img src="./schedule.jpg" class="img-fluid br50 imgt30" alt="" />
+								  
+								   <p class="img_text wow fadeInUp">2. 다이어트 목표 설정</p>
+								 </div>
+							   </div>
+							 </div>
+					 
+				 
+					 
+								 
+							   <div class="row">
+								 <div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+								   <div class="member">
+								   <img src="./consulting.jpg" class="img-fluid br50 imgt30" alt="" />
+								  
+								   <p class="img_text wow fadeInUp">3. 1:1 맞춤 컨설팅</p>
+								 
+								   </div>
+								 </div>
+					   
+					 
+								 <div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+								   <div class="member">
+								   
+									 <img src="./managing.jpg" class="img-fluid br50 imgt30" alt="" />
+									 
+									 <p class="img_text wow fadeInUp">4. 다이어트 사후관리</p>
+								   </div>
+								 </div>
+							   </div>
+	 
+	 
+	 
+					 
+					 
+							 </div>
+						   </section>
+
+
+						<section id="team" class="section-bg wow fadeIn" style="margin-top: 30px;">
+						  <div class="container">
+							 <div class="section-header">
+							 <h3>다이어트 실패 원인 1순위<br>'끓어오르는 식욕관리'도<br>쉽고 편하게</h3>
+							 <p class="textleft questm">     
+							식약처 인증된 성분으로<br>다이어트 관리를 부담없이<br>관리할 수 있도록 도와드립니다
+							 </p>
+							 <img src="./cutncut-intro.png" style="width:100%;max-width:500px;margin-bottom:30px">
+							</div>
+	
+							<div class="row">
+							  <div class="col-lg-5 col-md-5 wow fadeInUp ">
+								<div class="member">
+								  <div class="profile">
+								  <h2 >가르시니아 추출물</h2>
+								  <p style="text-align: center;" >
+								   탄수화물이 지방으로 합성되는 것을 억제,<br>체지방 감소에 도움을 줄 수 있음
+								  </p>
+								  <img class="text-gmp" src="./gmp-ffood.png">
+								</div>
+								</div>
+							  </div>
+					
+				  
+							  <div class="col-lg-5 col-md-5 wow fadeInUp ">
+								<div class="member">
+								  <img src="./garcinia.jpg" class="img-fluid br70 imgt30" alt="" />
+								 <div  class="gmp"> 
+								  <img src="./gmp-ffood.png" style="width:80px;float:left"><span>식약처 인증</span>
+								 </div> 
+								  <p class="img_text">컷앤컷 더블</p>
+								</div>
+							  </div>
+							</div>
+				  
+				  
+							<div class="row reverse">
+							  <div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+								<div class="member">
+								  <div class="profile">
+									<h2>프로바이오틱스</h2>
+									<p style="text-align:center;">
+									 유산균 증식 및 유해균 억제,<br>배변활동 원활에 도움을 줄 수 있음
+									</p>
+									<img class="text-gmp" src="./gmp-ffood.png">
+								</div>
+								</div>
+							  </div>
+					
+				  
+							  <div class="col-lg-5 col-md-5 wow fadeInUp">
+								<div class="member">
+								<img src="./probiotics.jpg" class="img-fluid br70 imgt30" alt="" />
+								<div  class="gmp"> 
+								<img src="./gmp-ffood.png" style="width:80px;float:left"><span>식약처 인증</span>
+							   </div> 
+								  <p class="img_text">컷앤컷 더블</p>
+								</div>
+							  </div>
+				  			</div>
+				  
+							  
+							<div class="row">
+							  <div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+								<div class="member">
+								  <div class="profile">
+									<h2>돌외잎주정추출분말</h2>
+									<p style="text-align: center;">
+									 지방 축적 및 합성을 억제,<br>복부 비만, 체지방 감소에 도움을 줄 수 있음
+									</p>
+									<img class="text-gmp" src="./gmp-ffood.png">
+								</div>
+								</div>
+							  </div>
+					
+				  
+							  <div class="col-lg-5 col-md-5 wow fadeInUp">
+								<div class="member">
 								
-							  </section>
+								  <img src="./jiaogulan.jpg" class="img-fluid br50 imgt30" alt="" />
+								  <div  class="gmp"> 
+								  <img src="./gmp-ffood.png" style="width:80px;float:left"><span>식약처 인증</span>
+								 </div> 
+								  <p class="img_text">컷앤컷 돌외</p>
+								</div>
+							  </div>
+							</div>
+
+
+
+				  
+				  
+						  </div>
+						</section>
+
+
+
+						
 							
+						  </section>
+
+						<!--  <a class="label_button1" for="info_weight" onclick="location.href='./test.html'" style="margin-left:10px;cursor:pointer"><span style="font-size: 16px;"></span><span >지속되었을 때 몸의 변화</span></a>-->							
 							
-							  <section id="team" class="section-bg" style="width:100%;margin-top:40px">
+
+							  <section id="faq" class="wow fadeIn" >
 							  <div class="container">
 								<div class="section-header">
-								  <h3>컷앤컷만의 특별한 감량 노하우</h3>
-							   
-								
-								<div class="row">
-								
-						
-						
-								  <div class="col-lg-12 col-md-12 wow fadeInUp">
-									<div class="member">
-									  <img src="./ezgif-frame-041.jpg" class="img-fluid" alt="" style="max-height:460px;width:100%;object-fit:cover;margin-bottom:40px">
-									 
-									</div>
-								  </div>
-						
-								
-								  <div class="col-lg-4 col-md-4 wow fadeInUp">
-									<div class="member">
-									  <div class="profile no-margin">
-										<h3 class="left-text"><b>1) 현재 체형 & 습관 분석</b><br>여러분의 성향을 파악</h3>
-										<p class="questl" style="text-align: left;">
-										 여러분의 생활 습관을 통해 성향을 파악하고 체형을 분석합니다. 
-										</p>
-									</div>
-									 
-									</div>
-								  </div>
-						
-								  <div class="col-lg-4 col-md-4 wow fadeInUp">
-									<div class="member">
-									  <div class="profile no-margin">
-										<h3 class="left-text"><b>2) 맞춤 감량 제안</b><br>최적화된 감량 방식 추천</h3>
-										<p class="questl" style="text-align: left;">
-										성향에 맞는 다이어트 방식을 제안하여 스트레스 없이 편안하게   
-										
-										</p>
-									</div>
-									</div>
-								  </div>
-						
-								  <div class="col-lg-4 col-md-4 wow fadeInUp">
-									<div class="member">
-									  <div class="profile no-margin">
-										<h3 class="left-text"><b>3) 1:1 맞춤 감량 관리</b><br>습관화가 되도록 맞춤 코칭</h3>
-										<p class="questl" style="text-align: left;">
-										 난이도에 맞는 맞춤 관리를 통해 자연스럽게 감량이 되도록 코칭 
-										</p>
-									</div>
-									</div>
-								  </div>
-							
+								  <h3>자주 하는 질문</h3>
+								  <p>
 								  
-						
+								  </p>
 								</div>
+						
+								<ul id="faq-list" class="wow fadeInUp">
+								  <li>
+									<a data-toggle="collapse" class="collapsed" href="#faq1"
+									  >가격은 어떻게 되나요?
+									  <i class="ion-android-remove"></i
+									></a>
+									<div id="faq1" class="collapse" data-parent="#faq-list">
+									  <p style="font-size:15px;">
+									컷앤컷은 올바른 감량 성공을 도와드리고자<br>1:1 개인 맞춤으로 진행됩니다.<br>여러분의 체형과 요구 감량 조건에 따라<br>습관 개선 및 소요 시간 차이로 견적이 달라집니다.<br><br>화면 아래 버튼을 통해<br>건강 감량치 분석을 무료로 받으시면<br>맞춤 견적과 특가 이벤트를 제공하고 있으니<br>편하게 무료 상담 받아보세요  	
+									  </p>
+									</div>
+								  </li>
+						
+								  <li>
+									<a data-toggle="collapse" href="#faq2" class="collapsed"
+									  >프로그램은 어떻게 신청하나요?
+									  <i class="ion-android-remove"></i></a>
+									<div id="faq2" class="collapse" data-parent="#faq-list">
+									  <p>
+									   1. 화면 맨 아래 버튼 '건강 감량치 분석 & 한정 이벤트'을 클릭<br>
+									   2. 여러분의 체형 및 원하는 사항을 체크<br>
+									   3. 전화 상담을 통해 신청 진행하시면 됩니다.
+									  </p>
+									</div>
+								  </li>
+						
+								
+						
+								  <li>
+									<a data-toggle="collapse" href="#faq3" class="collapsed"
+									  >단기 감량도 가능한가요?<i class="ion-android-remove"></i
+									></a>
+									<div id="faq3" class="collapse" data-parent="#faq-list">
+									  <p>
+										가능합니다. 하지만 단기 감량은 올바른 감량을 습관으로<br>
+										잡기에는 시간이 부족할 수 있어 지속적인 감량을<br>
+										원하시는 분들에게 초점 맞춰져 있음을 알려드립니다.
+									  </p>
+									</div>
+								  </li>
+
+								  <li>
+								  <a data-toggle="collapse" href="#faq4" class="collapsed"
+									>상담 신청했는데 전화를 못 받았습니다
+									<i class="ion-android-remove"></i
+								  ></a>
+								  <div id="faq4" class="collapse" data-parent="#faq-list">
+									<p>
+									  괜찮습니다. 부재중이실 경우 최대 3번 정도 다시 전화를 드립니다.<br>
+									  불편하시더라도 최대한 많은 도움과 올바른 감량을 안내해드리기 위해서<br>
+									  전화로 안내드리고 있으니 양해부탁드립니다.   
+									 
+									</p>
+								  </div>
+								</li>
+								</ul>
 							  </div>
 							</section>
 
+							
+							<section id="testimonials" class="wow fadeIn">
+							<div class="container">
+							  <div class="section-header">
+								<h3>컷앤컷 1:1 개인 맞춤 플랜<br>프로그램 후기</h3>
+								<p></p>
+							  </div>
+					
+							  <div class="row justify-content-center">
+								<div class="col-12">
+								  <div class="owl-carousel testimonials-carousel wow fadeInUp">
+									<div class="testimonial-item">
+									<div class="row">
+									<div class="col-4">
+									<p align="right"><img
+										src="./cut-pic5.jpg"
+										class="testimonial-img" style="border-radius:100%"
+									  />
+									  <span class="blink circle-kg">-12kg<br>감량</span>
+									  </div>
+									 
+									  <div class="col-8" >
+									  <h3 style="padding-bottom:15px">38세/직장인/김지*님</h3>
+									  <h4 style="font-size:17px;">이것저것 다 해봤는데 결국에는<br>건강하게 안빼면 소용이 없더라고요<br>건강하게 감량해도<br>즐겁다는 걸 이제 알았네요</h4>
+									 
+										</div>
+									</div>
+									</div>
+					
+									<div class="testimonial-item">
+									<div class="row">
+									<div class="col-4">
+									<p align="right"><img
+										src="./cut-pic4.jpg"
+										class="testimonial-img" style="border-radius:100%"
+									  />
+									  <span class="blink circle-kg">-8kg<br>감량</span>
+									  </div>
+									 
+									  <div class="col-8" >
+									  <h3 style="padding-bottom:15px">43세/주부/이수*님</h3>
+									  <h4 style="font-size:17px;"> 나잇살 때문에 자존감도 무너지고<br>거울 쳐다보기가 싫었는데<br>이젠 예쁜 옷 마음껏 입고 몸도 가벼워요</h4>
+									 
+										</div>
+									</div>
+									</div>
+					
+									<div class="testimonial-item">
+									<div class="row">
+									<div class="col-4">
+									<p align="right"><img
+										src="./cut-pic7.png"
+										class="testimonial-img" style="border-radius:100%"
+									  />
+									  <span class="blink circle-kg">-15kg<br>감량</span>
+									  </div>
+									 
+									  <div class="col-8" >
+									  <h3 style="padding-bottom:15px">53세/주부/박정*님</h3>
+									  <h4 style="font-size:17px;">갱년기 때문에 도저히 안빠지던 살이<br>정말 부담없이 자연스레 빠지면서<br>건강도 함께 좋아졌습니다<br>정말 감사합니다</h4>
+									 
+										</div>
+									</div>
+									</div>
+					
+								
+
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </section>
 
 
+			
 
-							<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
+
+							<section id="team" class="section-bg wow fadeIn" style="background:#000;width:100%;margin-top:30px">
 							<div class="container">
 							  <div class="section-header" style="padding-left:15px">
 							   
 							
 			
 							  <br><br>
+							  <div class="vertical wow fadeInDown" style="height:200px;margin-bottom:40px"></div>
+							  <h3>잘못된 감량은 결국 세드엔딩입니다<br>올바른 감량을 제대로 배워서<br>부담없이 재미있게 관리하세요</h3>
+							  <div class="vertical wow fadeInDown" style="height:200px;margin-bottom:40px"></div>
+
 								<h3>올바른 감량이 필요하다면?<br>지금 기회를 놓치지 마세요!<br>무료 체형 분석 이벤트!</h3>
 								<p class="textleft questm">
-								여러분의 체형과 생활 습관을 분석하여<br>감량이 안되는 이유와<br>체형에 맞는 감량법을 찾아드려요.
+								여러분의 체형과 생활 습관을 분석받고<br>한정 특가 이벤트 받으세요<br>
+								<u class="underline blink">(분석 후 전화상담으로 진행됩니다)</u>
 								</p>
 							  </div>
 							
-					  <section id="clients" class="wow fadeInUp"><br>
-					  <!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
-						<div class="container">
-						<hr style="background-color:#fff;width:90%;margin-bottom:30px">
-				  
-							  <div class="owl-carousel clients-carousel">
-  
-  
-						  <!-- flat slide -->
-						  <!--	<div>  
-									  
-										  
-											  <div class="row ">
-												  <div class="col-lg-4 col-4 text-center">
-												  <center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
-												  </div>
-									  
-												  <div class="col-lg-8 col-8 text-center">
-												  
-												  <p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
-												  </div>
-		  
-											  </div>
-									  </div> -->
-  
-						  <!-- end flat slide -->		
-  
-  
-
-  
-									  <div>  
-									  <p class="txt-tip">요요 걱정 줄이고</p>	
-										  
-									  </div>
-									  
-									  <div>  
-									  <p class="txt-tip">정체기 극복은 쉽게</p>	
-										  
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">유지어터가 되도록</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">작심삼일 X</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">어머님도 쉽게</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">갱년기 시기에도 OK</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">식단 조절을 편하게</p>	
-									  </div>
-								  
-							  </div>
-							  <hr style="background-color:#fff;width:90%;margin-bottom:30px">
-						</div>
-	  
-					  </section>
+					
 
 					  <!-- chat -->
 					  <center> <div class=" alert_msg">
@@ -319,8 +565,8 @@ testbody.innerHTML =`
 		  
 				  
 				
-				   <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="최대 감량치 분석 & 특가 이벤트" style="text-align:center;" >
-					<label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >최대 감량치 분석받기</span></label>
+				   <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="건강 감량치 분석 & 한정 이벤트" style="text-align:center;" >
+					<label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >건강 감량치 분석받기</span></label>
 					
 					<br>
 					<input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
@@ -344,7 +590,7 @@ testbody.innerHTML =`
 																		<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 																		<span>사업자번호: 641-86-00917</span><br>
 																		<span>광고사전심의필: 210610800</span><br>
-																		<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+																		<span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 															
 																	  </div>
 																	</div>
@@ -380,7 +626,7 @@ testbody.innerHTML =`
 									<p class="txt-tip">식약처 기능성 인증</p>
 								  </div> 
 			
-								</div><br> -->
+								</div><br>-->
 					
 			
 			
@@ -394,7 +640,7 @@ testbody.innerHTML =`
 							 					  
 						  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:650px;max-height:800px">
 					 
-					  <div class="img-text" style="font-size:14px;">
+					  <div class="quest-text" style="font-size:14px;">
 					  <center><h1><span class="questm ft-white">도무지 안빠지는 감량 부위를 쉽고 건강하게!</span></h1></center><br>
 
 					 
@@ -439,7 +685,7 @@ testbody.innerHTML =`
 						  
 							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
-							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+							  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 						  <!--질문 문구 부분 시작-->
 							  <center><h1><span class="questm ft-white">희망 목표 체중</span></h1></center>
 						 
@@ -475,7 +721,7 @@ testbody.innerHTML =`
 								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 								 <span>사업자번호: 641-86-00917</span><br>
 								 <span>광고사전심의필: 210610800</span><br>
-								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+								 <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 					 
 							   </div>
 							 </div>
@@ -494,7 +740,7 @@ testbody.innerHTML =`
 		
 								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
-								  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
+								  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">
 									 <!-- <div class="menu1" style="text-align:left">
 									 <span class="menu_font" style="cursor:pointer;" onclick="jump_quest(0)">PREV</span>
 									 </div><br><br> -->
@@ -531,7 +777,7 @@ testbody.innerHTML =`
 								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 								  <span>사업자번호: 641-86-00917</span><br>
 								  <span>광고사전심의필: 210610800</span><br>
-								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+								  <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 					  
 								</div>
 							  </div>
@@ -547,7 +793,7 @@ testbody.innerHTML =`
 							  
 								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 								 
-							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+							  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 		
 								  
 									  <center><h1><span class="questm ft-white">현재 체중</span></h1></center>
@@ -585,7 +831,7 @@ testbody.innerHTML =`
 				<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 				<span>사업자번호: 641-86-00917</span><br>
 				<span>광고사전심의필: 210610800</span><br>
-				<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+				<span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 	
 			  </div>
 			</div>
@@ -608,7 +854,7 @@ testbody.innerHTML =`
 											 </div></center><br> -->
 											 <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 											 
-											 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+											 <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 											 <!--질문 문구 부분 시작-->
 											 <center><h1><span class="questm ft-white">신장</span></h1></center>
 											 
@@ -645,7 +891,7 @@ testbody.innerHTML =`
 								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 								 <span>사업자번호: 641-86-00917</span><br>
 								 <span>광고사전심의필: 210610800</span><br>
-								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+								 <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 					 
 							   </div>
 							 </div>
@@ -659,7 +905,7 @@ testbody.innerHTML =`
 						 <section  id="quest4_wrap" class="wow fadeIn backg container1" >	
 						  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						 
-						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+						  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">나이</span></h1></center>
 								  
 								 
@@ -697,7 +943,7 @@ testbody.innerHTML =`
 												 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 												 <span>사업자번호: 641-86-00917</span><br>
 												 <span>광고사전심의필: 210610800</span><br>
-												 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+												 <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 									 
 											   </div>
 											 </div>
@@ -711,7 +957,7 @@ testbody.innerHTML =`
 							  <section  id="quest5_wrap" class="wow fadeIn backg container1" >
 							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						  
-						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+						  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">성함</span></h1></center>
 								  
 								 
@@ -748,7 +994,7 @@ testbody.innerHTML =`
 												  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 												  <span>사업자번호: 641-86-00917</span><br>
 												  <span>광고사전심의필: 210610800</span><br>
-												  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+												  <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 									  
 												</div>
 											  </div>
@@ -764,7 +1010,7 @@ testbody.innerHTML =`
 								  <section  id="quest6_wrap" class="wow fadeIn backg container1" >
 									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 									 
-									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+									  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 										  <center><h1><span class="questm ft-white">휴대폰 번호</span></h1></center>
 											  
 											 
@@ -814,7 +1060,7 @@ testbody.innerHTML =`
 															 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 															 <span>사업자번호: 641-86-00917</span><br>
 															 <span>광고사전심의필: 210610800</span><br>
-															 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+															 <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 												 
 														   </div>
 														 </div>
@@ -830,7 +1076,7 @@ testbody.innerHTML =`
 									 <section  id="quest7_wrap" class="wow fadeIn backg container1" >
 									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:700px;max-height:900px">
 		
-									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
+									  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">
 											
 								  <center><h1><span class="questm ft-white">희망 감량 부위</span></h1></center><br>
 								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
@@ -868,7 +1114,7 @@ testbody.innerHTML =`
 								   <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 								   <span>사업자번호: 641-86-00917</span><br>
 								   <span>광고사전심의필: 210610800</span><br>
-								   <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+								   <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 					   
 								 </div>
 							   </div>
@@ -896,7 +1142,7 @@ testbody.innerHTML =`
 						  
 						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:950px;max-height:1050px">
    
-						 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+						 <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 				
 						 <center><h1 style="line-height:90%"><span class="questm ft-white">컷앤컷 다이어트<br>무료 체형 분석<br>상담 신청이 완료 되었습니다.<br><br>실질적인 도움과 안내를 위하여<br>전화를 통해 안내를 드리고 있습니다.<br>다만 부재시 감량을 도와드리지 못하니<br>꼭 전화를 받아주세요.<br><br>오로지 여러분의 건강한 감량만을 생각합니다.<br>-컷앤컷 다이어트-</span></h1></center>
 
@@ -914,7 +1160,7 @@ testbody.innerHTML =`
 								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
 								 <span>사업자번호: 641-86-00917</span><br>
 								 <span>광고사전심의필: 210610800</span><br>
-								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+								 <span>주소: 서울한정시 광진구 능동로 40길 10-3</span>
 					 
 							   </div>
 							 </div>
@@ -995,7 +1241,7 @@ testbody.innerHTML =`
 			전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다.<br />
 			<br />
 			05. 개인정보의 제3자 제공<br />
-			회사는 정보주체의 개인정보를 이용목적 내에서만 처리하며, 정보 주체의 동의, 법률의 특별한 규정이 있는 경우에만 개인정보를 제3자에게 제공합니다.<br />
+			회사는 정보주체의 개인정보를 이용목적 내에서만 처리하며, 정보 주체의 동의, 법률의 한정한 규정이 있는 경우에만 개인정보를 제3자에게 제공합니다.<br />
 			회사는 다음과 같이 개인정보를 제3자에게 제공하고 있습니다.<br />
 			<br />
 			-제공하는 개인정보 항목 : 본인이름, 본인나이, 본인연락처, 불편사항, 결혼유무, 이메일 등 고객이 입력한 정보<br />
@@ -1038,7 +1284,7 @@ testbody.innerHTML =`
 	  <!-- Code begins here -->
 <div id="floating_menu">
 <button onclick="jump_quest(7);menu_remove()" class="float" style="z-index: 999;">
-<p style="padding:17px;">최대 감량치 분석 & 특가 이벤트</p></button>
+<p style="padding:17px;">건강 감량치 분석 & 한정 이벤트</p></button>
 </div>
 
 `;

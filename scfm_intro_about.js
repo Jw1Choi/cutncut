@@ -1,5 +1,6 @@
 function goal_weight() {
     var gw= $('#weight').val();
+
     if(gw>29 && gw<201)
     {
         $('#quest0_1').prop("disabled", false);
@@ -145,7 +146,8 @@ $('#next_phone').css({transition:"1s"});
     $('#hidden_iframe11').attr("onload", "if(submitted){}");
      $('#form_e11').prop("action", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfGDJUid1fs3aCASzgucwITBZtqO0gdC2QzLRbmAJlFO3Zoqg/formResponse");
     $('.quest6').attr("onclick","jump_quest(99)");
-
+    
+    
 
 }
 
@@ -159,11 +161,14 @@ function ban() {
 function now_weight() {
     var nw= $('#now-weight').val();
     var gw= $('#weight').val();
+    var tnw= String(nw);
     var total= nw-gw;
-
+ 
+    
     if(total>0)
     {
         $('#quest2_1').prop("disabled", false);
+        $("input[name=item2]").attr("value",tnw);
         $('#next_nw').css({transition:"1s"});
                 $('#next_nw').css({background:"#1b1b1b"});
                 $('#next_nw').css({border:"1px solid #fff"});
@@ -235,11 +240,17 @@ function now_weight() {
         
 }
 
+
+function fecheck(){
+    $("#female").prop('checked', true); 
+}
+
 function now_height() {
     var nh= $('#now-height').val();
     if(nh>110 && nh<201)
     {
         $('#quest3_1').prop("disabled", false);
+        $("input[name=item1]").val(nh); 
         $('#next_height').css({transition:"1s"});
                 $('#next_height').css({background:"#1b1b1b"});
                 $('#next_height').css({border:"1px solid #fff"});
@@ -290,6 +301,7 @@ function now_age() {
     if(na>24 && na<55)
     {
         $('#quest4_1').prop("disabled", false);
+        $("input[name=age]").val(na); 
         $('#next_age').css({transition:"1s"});
                 $('#next_age').css({background:"#1b1b1b"});
                 $('#next_age').css({border:"1px solid #fff"});
@@ -341,6 +353,7 @@ function name() {
        if(regex1.test(nm) && nm.length>1)
        {
            $('#quest5_1').prop("disabled", false);
+           $("input[name=name]").val(nm); 
            $('#next_name').css({transition:"1s"});
                    $('#next_name').css({background:"#1b1b1b"});
                    $('#next_name').css({border:"1px solid #fff"});
@@ -349,9 +362,8 @@ function name() {
                    $('#alert_name').css({color:"#fff"});
                    $('#alert_name').text('　');
 
-                   var name =nm; 
+                  
 
-localStorage.setItem("name", JSON.stringify(name));
        }
        else {
                
@@ -377,7 +389,7 @@ localStorage.setItem("name", JSON.stringify(name));
                    $('#alert_name').text('　');
            }
 
-           if(nm=="테스트" || nm=="그냥" || nm=="아아아" || nm=="아아"|| nm=="냥냥" || nm.substr(0, 1) == "보"|| nm.substr(0, 1) == "시"|| nm.substr(0, 1) == "씨"|| nm.substr(0, 1) == "쓰"|| nm.substr(0, 1) == "그"|| nm.substr(0, 1) == "빨"|| nm.substr(0, 1) == "메"|| nm.substr(0, 1) == "랄"|| nm.substr(0, 1) == "씹"|| nm.substr(0, 1) == "좆"|| nm.substr(0, 1) == "뽀"|| nm.substr(0, 1) == "찌"|| nm.substr(0, 1) == "쫄"|| nm.substr(0, 1) == "짤"|| nm.substr(0, 1) == "쎅"|| nm.substr(0, 1) == "섹"|| nm.substr(0, 1) == "테"|| nm.substr(0, 1) == "존"|| nm.substr(0, 1) == "썅"|| nm.substr(0, 1) == "짱"|| nm.substr(0, 1) == "쌕"|| nm.substr(0, 1) == "테"|| nm.substr(0, 1) == "쎄")
+           if(nm=="테스트" || nm=="그냥" || nm=="아아아" || nm=="아아"|| nm=="냥냥" || nm.substr(0, 1) == "보"|| nm.substr(0, 1) == "시"|| nm.substr(0, 1) == "씨"|| nm.substr(0, 1) == "쓰"|| nm.substr(0, 1) == "그"|| nm.substr(0, 1) == "빨"|| nm.substr(0, 1) == "메"|| nm.substr(0, 1) == "랄"|| nm.substr(0, 1) == "씹"|| nm.substr(0, 1) == "좆"|| nm.substr(0, 1) == "뽀"|| nm.substr(0, 1) == "찌"|| nm.substr(0, 1) == "쫄"|| nm.substr(0, 1) == "짤"|| nm.substr(0, 1) == "쎅"|| nm.substr(0, 1) == "섹"|| /*nm.substr(0, 1) == "테"||*/ nm.substr(0, 1) == "존"|| nm.substr(0, 1) == "썅"|| nm.substr(0, 1) == "짱"|| nm.substr(0, 1) == "쌕"|| nm.substr(0, 1) == "쎄")
            {
                $('#quest5_1').prop("disabled", true);
                $('#next_name').prop("disabled", true);
@@ -407,6 +419,8 @@ localStorage.setItem("name", JSON.stringify(name));
     if(ph.substr(0, 3) == "010" && ph.length==11)
     {
         $('#quest6_1').prop("disabled", false);
+        $("input[name=tel2]").val(ph.substr(3,4));
+        $("input[name=tel3]").val(ph.substr(7,4)); 
         $('#next_phone').css({transition:"1s"});
                 $('#next_phone').css({background:"#1b1b1b"});
                 $('#next_phone').css({border:"1px solid #fff"});
@@ -478,6 +492,7 @@ localStorage.setItem("name", JSON.stringify(name));
         }
 }
 
+
 function oo()  {
 						
     const query = '.input_font:checked';
@@ -531,11 +546,14 @@ $("#box").animate({width: "100%"},5300);
 
 setTimeout(function() {
    /*원하는 검사 결과 링크로 이동*/
+   OnSubmit();
    jump_quest(100);
+//    document.getElementsByName('inputForm').submit();
 }, 5300);						
 }
 
 }
+
 
 
 
