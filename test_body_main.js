@@ -1,6 +1,6 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
-<div id="wrap" >
+<div id="wrap" style="width:100%">
 
 <section id="dbscf" style="display:none">
 <form id="db" name="inputForm" accept-charset="euc-kr" method="post" action="https://dbdbdeep.com/site17/ifr/ifr_save.php">
@@ -63,7 +63,7 @@ testbody.innerHTML =`
 							 <div class="container">
 							 
 			 
-							   <div class="section-header" style="padding-left:15px">
+							  <div class="section-header" style="padding-left:15px">
 								 <br><br>
 
 								 <h3 style="text-align:left" class="textleft wow fadeInUp">뭘 해도 도무지 안빠지나요?<br>나잇살이 계속 늘고만 있나요?<br>건강 때문에 이젠 꼭 빼야하나요?</h3>
@@ -170,7 +170,7 @@ testbody.innerHTML =`
 						 </p>
 						 </div>
 						 </div>
-							 </section>
+							 </section> 
 								
 							 <section id="why-us" class="wow fadeIn">
 							 <div class="container-fluid">
@@ -379,7 +379,7 @@ testbody.innerHTML =`
 							
 						  </section>
 
-						<!--  <a class="label_button1" for="info_weight" onclick="location.href='./test.html'" style="margin-left:10px;cursor:pointer"><span style="font-size: 16px;"></span><span >지속되었을 때 몸의 변화</span></a>-->							
+						
 							
 
 							  <section id="faq" class="wow fadeIn" >
@@ -521,7 +521,7 @@ testbody.innerHTML =`
 								</div>
 							  </div>
 							</div>
-						  </section>
+						  </section> 
 
 
 			
@@ -530,11 +530,9 @@ testbody.innerHTML =`
 							<section id="team" class="section-bg wow fadeIn" style="background:#000;width:100%;margin-top:30px">
 							<div class="container">
 							  <div class="section-header" style="padding-left:15px">
-							   
-							
 			
 							  <br><br>
-							  <div class="vertical wow fadeInDown" style="height:200px;margin-bottom:40px"></div>
+							  <div class="vertical wow fadeInDown" style="height:200px;margin-bottom:40px"></div>	
 							  <h3>잘못된 감량은 결국 세드엔딩입니다<br>올바른 감량을 제대로 배워서<br>부담없이 재미있게 관리하세요</h3>
 							  <div class="vertical wow fadeInDown" style="height:200px;margin-bottom:40px"></div>
 
