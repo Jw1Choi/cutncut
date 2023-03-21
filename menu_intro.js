@@ -12,7 +12,7 @@ template.innerHTML = `
     <!-- <button class="menu_btn mn_ex" onclick="location.href='./index.html'" style="margin-top:3px;">HOME</button> 
       <button class="menu_btn mn_ex" onclick="location.href='./about.html'" style="margin-top:3px;">ABOUT</button>
       <button class="menu_btn mn_ex" onclick="location.href='./program.html'" style="margin-top:3px;">PROGRAM</button> -->
-      <button class="menu_btn mn_su" onclick="jump_quest(7);menu_remove()" style="margin-top:3px;">무료상담신청</button>
+      <button class="menu_btn mn_su" onclick="jump_quest(7);menu_remove()" style="margin-top:3px;">무료체형분석</button>
        <!-- <button class="total_menu"><img src="./hamburger.svg" style="width:17px;"></button> -->
     </div>
 </nav>

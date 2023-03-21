@@ -143,15 +143,15 @@
       
       // scrT == $(document).height() - $(window).height() 스크롤 바닥일 때 설정
 			if(scrT < 200){
-				$('header .top').css({background:"transparent"});
+				$('header .top').css({background:"#fff"});
         $('.float').css({transition:"1s"});
         $('.float').css({display:"none"});
 				// $('header .top .menu-btn button').css({color:"#fff"});
 				$('#wrap').css({padding:"0px"});
 			} else {
-				$('header .top').css({transition:"1s"});
-				$('header .top .menu-btn button').css({color:"#141414"});
-				$('header .top').css({background:"#fff"});
+				// $('header .top').css({transition:"1s"});
+				// $('header .top .menu-btn button').css({color:"#141414"});
+				// $('header .top').css({background:"#fff"});
 				$('#wrap').css({padding:"64px 0"});
         $('.float').css({transition:"1s"});
         $('.float').css({display:"inline"});

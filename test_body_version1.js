@@ -63,7 +63,7 @@ testbody.innerHTML =`
 							 <div class="container">
 							 
 			 
-							  <div class="section-header" style="padding-left:15px;padding-top:150px;">
+							  <div class="section-header" style="padding-top:70px;">
 
 								 <h3  class="textleft wow fadeInUp">갱년기 뱃살 도무지 안빠지시죠?<br>갱년기로 체질이 달라졌기 때문입니다.<br><br>달라진 체질에 맞게 건강하게 빼는<br>맞춤 방법을
 								 무료로 알려드립니다</h3>
@@ -107,7 +107,7 @@ testbody.innerHTML =`
 						
 					  
 						 <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="갱년기 무료 체형 분석 & 한정 이벤트" style="text-align:center;" >
-						  <label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >건강 감량치 분석받기</span></label>
+						  <label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >갱년기 무료 체형 분석</span></label>
 						  
 						  <br>
 						  <input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
