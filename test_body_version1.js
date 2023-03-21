@@ -74,7 +74,7 @@ testbody.innerHTML =`
 								  
 								 <br><Br>
 								  <div class="container">
-									<div class="section-header" style="padding-left:15px">
+									<div class="section-header" >
 				  
 							  
 							  
